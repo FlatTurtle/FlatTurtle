@@ -1,0 +1,398 @@
+/* ===================================================
+   Main layout
+   ================================================ */
+
+html {
+    font-family: 'FreeUniversalRegular';
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'FreeUniversalRegular';
+    src: url('../font/freeuniversal-regular-webfont.eot');
+    src: url('../font/freeuniversal-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/freeuniversal-regular-webfont.woff') format('woff'),
+         url('../font/freeuniversal-regular-webfont.ttf') format('truetype'),
+         url('../font/freeuniversal-regular-webfont.svg#FreeUniversalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'JuraDemiBold';
+    src: url('../font/jura-demibold-webfont.eot');
+    src: url('../font/jura-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/jura-demibold-webfont.woff') format('woff'),
+         url('../font/jura-demibold-webfont.ttf') format('truetype'),
+         url('../font/jura-demibold-webfont.svg#JuraDemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    color: #333;
+    background: none repeat scroll 0 0 #FFF;
+    /* overflow: hidden; */
+    /* font: 13px/1.231 sans-serif; */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    height: 100px;
+    overflow: hidden;
+}
+
+header #clock {
+    color: #fff;
+    border-radius: 14px 0 0 14px;
+    float: right;
+    font-size: 46px;
+    font-weight: bold;
+    height: 46px;
+    line-height: 46px;
+    margin-top: 15px;
+    padding: 13px 14px 13px 0;
+    text-align: right;
+    width: 136px;
+}
+
+header #logo {
+    height: 100px;
+    overflow: hidden;
+    line-height: 100px;
+    margin-left: 20px;
+}
+
+header #logo img {
+    vertical-align: middle;
+}
+
+section#main {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+/* ===================================================
+   Turtle styles
+   ================================================ */
+
+.group {
+	display: block;
+	float: left;
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.turtle {
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #FFF;
+    width: 100%;
+    top: 0;
+    float: left;
+}
+
+.group .turtle:first-child {
+    display: block;
+}
+
+.group .turtle {
+    border-left: 4px solid #FFF;
+}
+
+.group .turtle.active {
+	display: block;
+}
+
+.group:first-child .turtle {
+    border-left: 0;
+}
+
+.turtle h2 {
+    margin: 0;
+    background-color: #333;
+    color: #FFF;
+    font-size: 34px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 14px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.turtle h2 small {
+    font-size: 20px;
+    text-transform: none;
+}
+
+.turtle h2 img {
+	display: inline;
+    vertical-align: middle;
+    top: -2px;
+    position: relative;
+}
+
+.turtle h2 .credits {
+    font-family: 'FreeUniversalRegular'; 
+    color: #626262;
+    float: right;
+    font-size: 19px;
+    font-weight: normal;
+    padding-right: 14px;
+    text-transform: none;
+    display: none;
+}
+
+.group:last-child h2 .credits {
+    display: inline;
+}
+
+.turtle h3 {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 29px;
+    height: 54px;
+    line-height: 54px;
+    padding: 0 14px;
+    overflow: hidden;
+}
+
+.turtle table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.turtle tr {
+    background-color: #FFF;
+}
+
+.turtle tr:nth-child(even) {
+	background-color: #E1E1E1;
+}
+
+.turtle td {
+    color: #333;
+    font-size: 23px;
+    height: 59px !important;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.turtle img {
+	vertical-align: middle;
+}
+
+.turtle .time {
+    color: #676767;
+    text-align: right;
+    width: 60px;
+    line-height: 100%;
+}
+
+.turtle .delayed {
+    border-left: 5px solid #FA0E00;
+}
+
+.turtle .time em:before {
+    content: "\203A";
+}
+
+.turtle .time em {
+    color: #FA0E00;
+    display: block;
+    font-style: normal;
+}
+
+.turtle .label {
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.turtle .label span, .turtle .label div {
+	display: block;
+	background-color: #676767;
+    border-bottom: 3px solid #D9D9D9;
+    border-radius: 5px;
+    padding: 5px 3px;
+    white-space: nowrap;
+}
+
+.turtle .text {
+    font-weight: bold;
+    line-height: 59px;
+    height: 59px;
+    overflow: hidden;
+    display: block;
+}
+
+.turtle .text span, .turtle .text div {
+	display: block;
+}
+
+.turtle .small-text {
+    font-size: 16px;
+    font-weight: normal;
+    overflow: hidden;
+    line-height: 18px;
+    max-height: 59px;
+}
+
+.turtle .small-text small {
+	color: #999;
+	font-size: 90%;
+	white-space: nowrap;
+}
+
+.turtle .error {
+    color: #999;
+    text-align: center;
+    display: block;
+}
+
+/* ===================================================
+   Turtle ticker
+   ================================================ */
+
+@-webkit-keyframes spinner {
+    0% {
+        border-color: #fff;
+    }
+    25% {
+        border-color: #fff;
+        border-right-color: #000;
+    }
+    50% {
+        border-color: #fff;
+        border-right-color: #000;
+        border-bottom-color: #000;
+    }
+    75% {
+        border-color: #fff;
+        border-right-color: #000;
+        border-bottom-color: #000;
+        border-left-color: #000;
+    }
+    100% {
+        border-color: #000;
+    }
+}
+
+@-moz-keyframes spinner {
+    0% {
+        border-color: #fff;
+    }
+    25% {
+        border-color: #fff;
+        border-right-color: #000;
+    }
+    50% {
+        border-color: #fff;
+        border-right-color: #000;
+        border-bottom-color: #000;
+    }
+    75% {
+        border-color: #fff;
+        border-right-color: #000;
+        border-bottom-color: #000;
+        border-left-color: #000;
+    }
+    100% {
+        border-color: #000;
+    }
+}
+
+@-ms-keyframes spinner {
+    0% {
+        border-color: #fff;
+    }
+    25% {
+        border-color: #fff;
+        border-right-color: #000;
+    }
+    50% {
+        border-color: #fff;
+        border-right-color: #000;
+        border-bottom-color: #000;
+    }
+    75% {
+        border-color: #fff;
+        border-right-color: #000;
+        border-bottom-color: #000;
+        border-left-color: #000;
+    }
+    100% {
+        border-color: #000;
+    }
+}
+
+.turtle h3 ol, .turtle h3 li {
+    margin: 0;
+    padding: 0;
+}
+
+.turtle h3 ol {
+    display: block;
+    float: right;
+    margin: 20px 5px 0 0;
+    text-align: right;
+    line-height: 10px;
+}
+
+/* REMOVING TICKER ANIMATION TEMPORARY ----------------------
+
+.turtle h3 li {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border: 2px solid #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+}
+
+------------------------------------------------------------- */
+
+.turtle h3 li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.turtle h3 li.current {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/* temp stuff */
+.cc {
+a:link  color:#000000;       /* unvisited link */
+a:visited  color:#000000;   /* visited link */
+a:hover  color:#000000;   /* mouse over link */
+a:active  color:#0000F00;   /* selected link */
+font-size: 10px;
+font-style:italic;
+font-family: helvetica;
+}

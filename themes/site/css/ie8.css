@@ -1,0 +1,49 @@
+/* line 6, ../sass/ie8.scss */
+#elevator_pitch #slideshow_nav li.current a:before {
+  display: none;
+}
+
+/* line 18, ../sass/ie8.scss */
+#pricing li p.button a {
+  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#007d9b, Strength=5, Direction=180) !important;
+}
+/* line 20, ../sass/ie8.scss */
+#pricing li p.button a:hover {
+  filter: progid:DXImageTransform.Microsoft.Shadow(Color=#007d9b, Strength=3, Direction=180) !important;
+}
+/* line 28, ../sass/ie8.scss */
+#pricing li#standard_turtle p.button a:after {
+  display: none !important;
+}
+/* line 31, ../sass/ie8.scss */
+#pricing li#standard_turtle p.button a .ie8_icon {
+  position: absolute;
+  font-weight: 700;
+  font-size: 1.25em;
+  font-family: "Soho Gothic W01 Bold", sans-serif;
+  right: 0.7em;
+  top: 1em;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+/* line 47, ../sass/ie8.scss */
+#contact_form form .sbToggle {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  margin: 2px 0 0 0;
+}
+/* line 51, ../sass/ie8.scss */
+#contact_form form input, #contact_form form textarea {
+  background: white url(../img/form_background.jpg) repeat-x;
+}
+
+/* line 59, ../sass/ie8.scss */
+.to_top_link a:after {
+  display: none;
+}
+/* line 62, ../sass/ie8.scss */
+.to_top_link a .ie8_icon {
+  position: absolute;
+  right: 1.5em;
+  top: 0.9em;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
