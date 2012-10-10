@@ -154,7 +154,6 @@
 						<h2><span class="role">Project Manager</span> <span class="org">Flat Turtle</span></h2>
 					</hgroup>
 				</header>
-				<p class="tel"><span class="type">work</span> Tel <span class="value">+32 (0)2 669 10 01</span></p>
 				<p class="tel"><span class="type">cell</span> Mobile <span class="value">+32 (0)486 747 122</span></p>
 				<p class="email"><a class="value" href="mailto:pieter@FlatTurtle.com">pieter@FlatTurtle.com</a></p>
 				<p class="download_vcard"><a class="gradient" href="http://who.flatturtle.com/pieter_colpaert.vcf">Download vCard <span class="icon">!</span></a></p>
@@ -166,7 +165,6 @@
 					<h1 class="fn n"><span class="given-name">Christophe</span> <span class="family-name">Petitjean</span></h1>
 					</hgroup>
 				</header>
-				<p class="tel"><span class="type">cell</span> Mobile <span class="value">+32 (0)475 513 224</span></p>
 				<p class="email"><a class="value" href="mailto:christophe@FlatTurtle.com">christophe@FlatTurtle.com</a></p>
 				<p class="download_vcard"><a class="gradient" href="http://who.flatturtle.com/christophe_petitjean.vcf">Download vCard <span class="icon">!</span></a></p>
 			</li>
@@ -178,6 +176,7 @@
 					<h1 class="fn n"><span class="given-name">Stefanie</span> <span class="family-name">Lisabeth</span></h1>
 					</hgroup>
 				</header>
+				<p class="tel"><span class="type">work</span> Tel <span class="value">+32 (0)2 669 10 01</span></p>
 				<p class="tel"><span class="type">cell</span> Mobile <span class="value">+32 (0)474 239 019</span></p>
 				<p class="email"><a class="value" href="mailto:stefanie@FlatTurtle.com">Stefanie@FlatTurtle.com</a></p>
 				<p class="download_vcard"><a class="gradient" href="http://who.flatturtle.com/stefanie_lisabeth.vcf">Download vCard <span class="icon">!</span></a></p>
