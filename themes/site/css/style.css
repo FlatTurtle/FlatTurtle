@@ -272,6 +272,10 @@ header[role=banner] nav li a:hover {
 #elevator_pitch header h1 em {
   color: #21b0d7;
 }
+
+em{
+  font-weight: bold;
+}
 /* line 370, ../sass/partials/_page.scss */
 #elevator_pitch #call_to_action {
   width: 90%;
@@ -529,16 +533,11 @@ header[role=banner] nav li a:hover {
 /* line 442, ../sass/partials/_page.scss */
 #elevator_pitch #slideshow_nav {
   /*opacity: 0;*/
-  width: 90%;
-  max-width: 575px;
-  margin: 0 auto;
-  padding: 0 0 3.25em 0;
+  display: none;
 }
 /* line 448, ../sass/partials/_page.scss */
 #elevator_pitch #slideshow_nav ul {
-  width: 99%;
-  overflow: hidden;
-  padding: 5px 0 0 0;
+  display: none;
 }
 /* line 453, ../sass/partials/_page.scss */
 #elevator_pitch #slideshow_nav li {
@@ -579,23 +578,28 @@ header[role=banner] nav li a:hover {
   background: #e2e2e2;
 }
 /* line 488, ../sass/partials/_page.scss */
-#elevator_pitch #elevator_text {
+#elevator_pitch .elevator_text {
   color: #333;
   margin: 0 auto;
-  width: 90%;
+  width: 550px;
   max-width: 720px;
-  text-align: center;
   padding: 0 0 9.25em 0;
 }
 /* line 495, ../sass/partials/_page.scss */
-#elevator_pitch #elevator_text p {
+#elevator_pitch .elevator_text p {
   line-height: 1.3em;
   /* 26px / 20px */
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
   padding: 0 0 1em 0;
 }
+
+/* line 495, ../sass/partials/_page.scss */
+#elevator_pitch .elevator_text h2 {
+  padding: 1em 0 1em 0;
+}
+
 /* line 500, ../sass/partials/_page.scss */
-#elevator_pitch #elevator_text strong {
+#elevator_pitch .elevator_text strong {
   font-family: "Soho Gothic W01 Bold", sans-serif;
   font-weight: 400;
 }
@@ -745,7 +749,7 @@ only screen and (min-resolution: 1.5dppx) {
     display: inline;
   }
   /* line 635, ../sass/partials/_page.scss */
-  #elevator_pitch #elevator_text {
+  #elevator_pitch .elevator_text {
     font-size: 0.75em;
     /* 12/20 */
     line-height: 1.2em;
@@ -1217,6 +1221,10 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   padding: 2.35em 0 0 0;
   position: relative;
 }
+#contact_form a{
+  color: white;
+}
+
 /* line 878, ../sass/partials/_page.scss */
 #contact_form .placeholder {
   font-family: "Soho Gothic W01 Regular", sans-serif;
@@ -1967,6 +1975,11 @@ only screen and (min-resolution: 1.5dppx) {
   padding: 8.4em 0 0 0;
   float: right;
 }
+/* line 1448, ../sass/partials/_page.scss */
+#employees li:nth-child(4) {
+  padding: 24em 0 0 3em;
+  float: left;
+}
 /* line 1453, ../sass/partials/_page.scss */
 #employees h1 {
   font-family: "Soho Gothic W01 Bold", sans-serif;
@@ -2066,6 +2079,11 @@ only screen and (min-resolution: 1.5dppx) {
   #employees li:nth-child(3) {
     padding: 0 6.1290323% 0 0;
   }
+  /* line 1521, ../sass/partials/_page.scss */
+  #employees li:nth-child(4) {
+    padding: 0 6.1290323% 0 0;
+    margin-top: -10em;
+  }
 }
 /*/mediaquery*/
 /* phone */
@@ -2119,6 +2137,16 @@ only screen and (min-resolution: 1.5dppx) {
     padding: 0 0 3.4em 0;
     float: none;
   }
+
+  /* line 1564, ../sass/partials/_page.scss */
+  #employees li:nth-child(4) {
+    position: static;
+    padding: 10em 0 3.4em 0;
+    left: auto;
+    top: auto;
+    float: none;
+  }
+
   /* line 1571, ../sass/partials/_page.scss */
   #employees p.to_top_link {
     display: none;
