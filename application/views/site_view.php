@@ -32,7 +32,7 @@
 					<p>The one thing that makes a property interesting to potential clients is <em>location</em>. FlatTurtle can help you visualise the <em>accessibility</em> of a property and reveal the potential in one quick glance.</p>
 
 				<h2>How do we do it?</h2>
-					<p>We install a display in a notable location, where we visualise relevant information about the area. Examples are public transport, traffic, social media and even the weather. The data is bundled into applications, we call them <em>Turtles</em>, making it easier to navigate.</p>
+					<p>We install a display in a notable location, where we visualise relevant information about the area. Examples are public transport, traffic, social media and even the weather. The data is bundled into what we call <em>Turtles</em>, making it easier to navigate and very modular.</p>
 					<p>Because the data is real-time, you will always be up-to-date, without having to put any effort into it.</p>
 					<p>We have a wide range of Turtles, that can be customized to fit your company. If you would like to know more about our services, don't hestitate to <a href="#contact_form">contact</a> us!</p>
 			</section>
