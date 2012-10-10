@@ -43,7 +43,7 @@
 			<h1>Contact form</h1>
 			</header>
 			<p>Would you like to know more about FlatTurtle or about what we can do for you? Fill in the form, we will get back to you as soon as possible.</p>
-			<p>For urgent questions or ordering, we are glad to help you. You can reach us by phone: +32 26 691 001 or by <a class="whitelink" href="mailto:stefanie@FlatTurtle.com">email</a>.</p>
+			<p>For urgent questions or ordering, we are glad to help you. You can reach us by phone: +32 (0)2 669 10 01 or by <a class="whitelink" href="mailto:sales@FlatTurtle.com">email</a>.</p>
 			<?php
 			if($form_submitted) {
 				echo "<div class=\"messages\"><p class=\"message\">Thanks for contacting us. We will get back to you as soon as possible.</p></div>";
