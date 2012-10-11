@@ -174,6 +174,7 @@
 				<header>
 					<hgroup>
 					<h1 class="fn n"><span class="given-name">Stefanie</span> <span class="family-name">Lisabeth</span></h1>
+						<h2><span class="role">Sales Executive</span> <span class="org">Flat Turtle</span></h2>
 					</hgroup>
 				</header>
 				<p class="tel"><span class="type">work</span> Tel <span class="value">+32 (0)2 669 10 01</span></p>
