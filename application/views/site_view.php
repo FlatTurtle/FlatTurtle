@@ -14,7 +14,7 @@
 	<div id='main' role='main'>
 		<article id="elevator_pitch">
 			<header>
-			<p>Having difficulties renting out or selling a building? We can help.</p>
+			<p>Having difficulties selling or leasing a building? We can help.</p>
 			<br />
 			<p>FlatTurtle provides interactive screens to persuade potential customers of your property's value. We visualise the key benefits of your property, 24/7, even when you are not around.</p>
 			<br />
@@ -29,12 +29,12 @@
 			</section>
 			<section class="elevator_text">
 				<h2>Location, location, location</h2><!--Knowledge is in the eye of the beholder-->
-					<p>The one thing that makes a property interesting to potential clients is <em>location</em>. FlatTurtle can help you visualise the <em>accessibility</em> of a property and reveal the potential in one quick glance.</p>
+					<p>The one thing that makes a property interesting to potential clients is <em>location</em>. FlatTurtle can help you visualise the <em>accessibility</em> of a property and reveal its potential in one quick glance.</p>
 
 				<h2>How do we do it?</h2>
-					<p>We install a display in a notable location, where we visualise relevant information about the area. Examples are public transport, traffic, social media and even the weather. The data is bundled into what we call <em>Turtles</em>, making it easier to navigate and very modular.</p>
+					<p>We install a display in a notable location, where we visualise relevant information about the area. Examples are public transport, traffic, social media and even the weather. The data is bundled into what we call <em>Turtles</em>, making it easy to customise the product to your needs.</p>
 					<p>Because the data is real-time, you will always be up-to-date, without having to put any effort into it.</p>
-					<p>We have a wide range of Turtles, that can be customized to fit your company. If you would like to know more about our services, don't hesitate to <a href="#contact_form">contact</a> us or to try the limited live <a href="http://demo.flatturtle.com/" target="_blank">demo</a>!</p>
+					<p>We have a wide range of Turtles, that can be customized to suit your business' needs. If you would like to know more about our services, please <a href="#contact_form">contact</a> us or to try the limited live <a href="http://demo.flatturtle.com/" target="_blank">demo</a>!</p>
 			</section>
 		</article>
 
@@ -42,7 +42,7 @@
 			<header>
 			<h1>Contact form</h1>
 			</header>
-			<p>Would you like to know more about FlatTurtle or about what we can do for you? Fill in the form, we will get back to you as soon as possible.</p>
+			<p>Would you like to know more about FlatTurtle or about what we can do for you? Please complete the form and we will contact you as soon as possible.</p>
 			<p>For urgent questions or ordering, we are glad to help you. You can reach us by phone: +32 (0)2 669 10 01 or by <a class="whitelink" href="mailto:sales@FlatTurtle.com">email</a>.</p>
 			<?php
 			if($form_submitted) {
@@ -117,9 +117,9 @@
 			</p>
 			</fieldset>
 			<fieldset id="message">
-			<legend>A personal message</legend>
-			<p><label for="personal_message">A personal message</label></p>
-			<textarea id="personal_message" name="personal_message" placeholder="A personal message…"  <?php if(form_error('personal_message')) echo ' class="error" '; ?>><?php echo set_value('personal_message') ?></textarea>
+			<legend>Your message</legend>
+			<p><label for="personal_message">Your message</label></p>
+			<textarea id="personal_message" name="personal_message" placeholder="Your message…"  <?php if(form_error('personal_message')) echo ' class="error" '; ?>><?php echo set_value('personal_message') ?></textarea>
 			<?php if(form_error('personal_message')) echo '<span class="inline_error_message">!</span>'; ?>
 			</fieldset>
 			<fieldset id="actions_and_messages">
@@ -186,7 +186,7 @@
 		</section>
 		<article id="about_us">
 		<h1>About us</h1>
-			<p>Together, we believe that we can improve people's lives by providing them the right information when they need it. In a rapidly moving society, time is important and can not be wasted. Modern times require modern sollutions!</p>
+			<p>Together, we believe that we can improve people's lives by providing them the right information when they need it. In a rapidly moving society, time is important and can not be wasted. In an increasingly more mobile society, speedy solutions are required!</p>
 
 			<p>Thanks to our partners: <a href="http://hello.irail.be/about/">iRail</a>, <a href="http://thedatatank.com/">The DataTank</a> and <a href="http://www.rentalvalue.be/">RentalVALUE</a>. Many thanks for giving us the support when we need it, for providing us with the right tools and for guiding us with your knowledge and expertise.</p>
 		</article><!-- article#about_us -->
