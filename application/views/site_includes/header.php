@@ -34,7 +34,7 @@
     <link href='<?php echo base_url(); ?>themes/site/css/style.css?v=1' media="screen, projection" rel='stylesheet' />
     <!--<![endif]--> 
     <!-- ** only load the normal stylesheet on IE7 or higher ** -->
-    <link type="text/css" rel="stylesheet" href="http://fast.fonts.com/cssapi/66253153-9c89-413c-814d-60d3ba0d6ac2.css"/>
+    <link type="text/css" rel="stylesheet" href="https://fast.fonts.com/cssapi/66253153-9c89-413c-814d-60d3ba0d6ac2.css"/>
     <!--[if gte IE 9]>
       <style type="text/css">
         .gradient {
