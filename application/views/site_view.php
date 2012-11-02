@@ -1,4 +1,3 @@
-
 <?php $this->load->view('site_includes/header'); ?>
 	<header role="banner" id="intro">
 		<hgroup>
@@ -144,7 +143,7 @@
 					<p class="tel"><span class="type">work</span> Tel <span class="value">+32 (0)2 669 09 99</span></p>
 					<p class="tel"><span class="type">cell</span> Mobile <span class="value">+32 (0)474 610 139</span></p>
 					<p class="email"><a class="value" href="mailto:yeri@FlatTurtle.com">yeri@FlatTurtle.com</a></p>
-					<p class="download_vcard"><a class="gradient" href="http://who.flatturtle.com/yeri_tiete.vcf">Download vCard <span class="icon">!</span></a></p>
+					<p class="download_vcard"><a class="gradient" href="https://who.flatturtle.com/yeri_tiete.vcf">Download vCard <span class="icon">!</span></a></p>
 			</li>
 			<li class="vcard">
 				<img src="<?php echo base_url(); ?>themes/site/img/pieter_960_1x.png" alt="Pieter Colpaert" />
@@ -156,7 +155,7 @@
 				</header>
 				<p class="tel"><span class="type">cell</span> Mobile <span class="value">+32 (0)486 747 122</span></p>
 				<p class="email"><a class="value" href="mailto:pieter@FlatTurtle.com">pieter@FlatTurtle.com</a></p>
-				<p class="download_vcard"><a class="gradient" href="http://who.flatturtle.com/pieter_colpaert.vcf">Download vCard <span class="icon">!</span></a></p>
+				<p class="download_vcard"><a class="gradient" href="https://who.flatturtle.com/pieter_colpaert.vcf">Download vCard <span class="icon">!</span></a></p>
 			</li>
 			<li class="vcard">
 				<img src="<?php echo base_url(); ?>themes/site/img/christophe_960_1x.png" alt="Cristophe Petitjean" />
@@ -166,7 +165,7 @@
 					</hgroup>
 				</header>
 				<p class="email"><a class="value" href="mailto:christophe@FlatTurtle.com">christophe@FlatTurtle.com</a></p>
-				<p class="download_vcard"><a class="gradient" href="http://who.flatturtle.com/christophe_petitjean.vcf">Download vCard <span class="icon">!</span></a></p>
+				<p class="download_vcard"><a class="gradient" href="https://who.flatturtle.com/christophe_petitjean.vcf">Download vCard <span class="icon">!</span></a></p>
 			</li>
 
 			<li class="vcard">
@@ -180,7 +179,7 @@
 				<p class="tel"><span class="type">work</span> Tel <span class="value">+32 (0)2 669 10 01</span></p>
 				<p class="tel"><span class="type">cell</span> Mobile <span class="value">+32 (0)474 239 019</span></p>
 				<p class="email"><a class="value" href="mailto:stefanie@FlatTurtle.com">Stefanie@FlatTurtle.com</a></p>
-				<p class="download_vcard"><a class="gradient" href="http://who.flatturtle.com/stefanie_lisabeth.vcf">Download vCard <span class="icon">!</span></a></p>
+				<p class="download_vcard"><a class="gradient" href="https://who.flatturtle.com/stefanie_lisabeth.vcf">Download vCard <span class="icon">!</span></a></p>
 			</li>
 			</ul>
 		</section>
