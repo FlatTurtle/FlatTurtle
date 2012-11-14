@@ -1,0 +1,11 @@
+# Humans! We got them.
+
+Check out the FlatTurtle founders:
+
+	* Yeri Tiete (http://who.flatturtle.com/yeri)
+	* Pieter Colpaert (http://who.flatturtle.com/pieter)
+	* Christophe Petitjean (http://who.flatturtle.com/christophe)
+
+# Check out the dev team at Github:
+
+	* https://github.com/flatturtle/
