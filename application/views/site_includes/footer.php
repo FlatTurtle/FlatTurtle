@@ -8,7 +8,7 @@
           <p class="street-address">Avenue du Port 86c - 18 Havenlaan</p>
           <p><span class="postal-code">1000</span> <span class="locality">Brussels</span> - <span class="country-name">Belgium</span></p>
           </div>
-        <p>BTW/VAT BE 0445 781 910</p>
+        <p>VAT: BE 0843 961 762</p>
         </section>
       </footer>
     </div>
