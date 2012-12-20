@@ -6,6 +6,7 @@
 		<nav role="navigation" data-position="fixed" >
 			<ul>
 			<li><a href="#slideshow">The product</a></li>
+			<li><a href="http://blog.flatturtle.com/">Blog</a></li>
 			<li><a href="flatTurtle_presspack.zip">Press Pack</a></li>
 			<li><a href="#employees">Contact</a></li>
 			</ul>
