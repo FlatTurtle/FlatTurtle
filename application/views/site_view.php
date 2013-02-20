@@ -7,7 +7,10 @@
 			<ul>
 			<li><a href="#slideshow">The product</a></li>
 			<li><a href="http://blog.flatturtle.com/">Blog</a></li>
+			<li><a href="http://yeri.be/xf">Mailing list</a></li>
+<!--
 			<li><a href="flatTurtle_presspack.zip">Press Pack</a></li>
+-->
 			<li><a href="#employees">Contact</a></li>
 			</ul>
 		</nav>
@@ -169,7 +172,7 @@
 				<p class="email"><a class="value" href="mailto:christophe@FlatTurtle.com">christophe@FlatTurtle.com</a></p>
 				<p class="download_vcard"><a class="gradient" href="https://who.flatturtle.com/christophe_petitjean.vcf">Download vCard <span class="icon">!</span></a></p>
 			</li>
-
+<!--
 			<li class="vcard">
 				<img src="<?php echo base_url(); ?>themes/site/img/stefanie_960_1x.png" alt="Stefanie Lisabeth" />
 				<header>
@@ -183,6 +186,7 @@
 				<p class="email"><a class="value" href="mailto:stefanie@FlatTurtle.com">Stefanie@FlatTurtle.com</a></p>
 				<p class="download_vcard"><a class="gradient" href="https://who.flatturtle.com/stefanie_lisabeth.vcf">Download vCard <span class="icon">!</span></a></p>
 			</li>
+-->
 			</ul>
 		</section>
 		<article id="about_us">
