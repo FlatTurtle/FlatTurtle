@@ -136,8 +136,7 @@ header[role=banner] hgroup {
   max-width: 369px;
   /*height: 89px;*/
   float: left;
-  background: url(../img/logo_960_1x.gif) no-repeat;
-  margin: 3.55em 0 3.35em 1.5em;
+  margin: 0em 0 0em 0em;
 }
 /* line 254, ../sass/partials/_page.scss */
 header[role=banner] hgroup h1 {
@@ -152,7 +151,7 @@ header[role=banner] hgroup img {
 /* line 263, ../sass/partials/_page.scss */
 header[role=banner] nav {
   float: right;
-  padding: 1.2em 0 0 0;
+  padding: 1em 0 0 0;
 }
 /* line 266, ../sass/partials/_page.scss */
 header[role=banner] nav li {
@@ -164,7 +163,6 @@ header[role=banner] nav li {
 /* line 271, ../sass/partials/_page.scss */
 header[role=banner] nav li:last-child {
   margin: 0 0 0 2.2em;
-  border-left: 2px solid #ccc;
 }
 /* line 275, ../sass/partials/_page.scss */
 header[role=banner] nav li a {
@@ -612,7 +610,6 @@ only screen and (min-devicepixel-ratio: 1.5),
 only screen and (min-resolution: 1.5dppx) {
   /* line 514, ../sass/partials/_page.scss */
   #elevator_pitch {
-    background: #ededed url(../img/elevator_pitch_back_2x.jpg) no-repeat center bottom;
     -webkit-background-size: 2523px 713px;
     background-size: 2523px 713px;
   }
@@ -791,7 +788,6 @@ only screen and (min-resolution: 1.5dppx) and (max-width: 590px) {
 @media screen and (min-width: 950px) {
   /* line 676, ../sass/partials/_page.scss */
   #elevator_pitch {
-    background: #ededed url(../img/elevator_pitch_back.jpg) no-repeat center bottom;
   }
 }
 /*/mediaquery*/
