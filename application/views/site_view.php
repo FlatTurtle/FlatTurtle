@@ -2,15 +2,16 @@
 <header role="banner" id="intro">
   <nav role="navigation" data-position="fixed" >
     <ul>
-    <li><form action="http://flatturtle.us6.list-manage1.com/subscribe/post?u=d82ed07d6d647a768b87d3e8d&amp;id=8de65c1467" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <label for="mce-EMAIL">Subscribe to our mailing list</label>
-      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-      <input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-    </form></li>
+      <li><strong><a href="https://my.flatturtle.com/">my.FlatTurtle</a></strong></li>
+      <li><a href="http://pricing.flatturtle.com/">Pricing</a></li>
       <li><a href="http://blog.flatturtle.com/">Blog</a></li>
-
       <li><a href="https://twitter.com/FlatTurtle_">Twitter</a></li>
-</ul>
+      <li><form action="http://flatturtle.us6.list-manage1.com/subscribe/post?u=d82ed07d6d647a768b87d3e8d&amp;id=8de65c1467" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <label for="mce-EMAIL">Stay updated:</label>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+          <input type="submit" value="Subscribe to our updates" name="subscribe" id="send_button" class="button">
+      </form></li>
+    </ul>
   </nav>
 </header>
 
@@ -23,11 +24,14 @@
 	<img class="slide" id="slide_1" src="<?php echo base_url(); ?>themes/site/img/FlatScreenTraffic.jpg" alt="traffic info" />
       </div>
     </section>
-    <!-- more text here if wanted:
     <section class="elevator_text">
-				
+      <header>
+      <h1>FlatTurtle makes useful information accessible, in and around your location.</h1>
+      </header>
+      <!-- extra info if needed...
+      <p>test</p>
+      -->
     </section>
-    -->
   </article>
 
 <!--  <section id="contact_form">
