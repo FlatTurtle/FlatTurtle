@@ -2,10 +2,10 @@
 <header role="banner" id="intro">
   <nav role="navigation" data-position="fixed" >
     <ul>
-      <li><strong><a href="https://my.flatturtle.com/">my.FlatTurtle</a></strong></li>
       <li><a href="http://pricing.flatturtle.com/">Pricing</a></li>
-      <li><a href="http://blog.flatturtle.com/">Blog</a></li>
-      <li><a href="https://twitter.com/FlatTurtle_">Twitter</a></li>
+      <li><a href="http://blog.flatturtle.com/" target="_blank">Blog</a></li>
+      <li><a href="https://twitter.com/FlatTurtle_" target="_blank">Twitter</a></li>
+      <li>| <strong><a href="https://my.flatturtle.com/">sign in</a></strong></li>
       <li><form action="http://flatturtle.us6.list-manage1.com/subscribe/post?u=d82ed07d6d647a768b87d3e8d&amp;id=8de65c1467" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <label for="mce-EMAIL">Stay updated:</label>
           <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
@@ -24,13 +24,10 @@
 	<img class="slide" id="slide_1" src="<?php echo base_url(); ?>themes/site/img/FlatScreenTraffic.jpg" alt="traffic info" />
       </div>
     </section>
-    <section class="elevator_text">
+    <section class="call_to_action">
       <header>
-      <h1>FlatTurtle makes useful information accessible, in and around your location.</h1>
+        <h2>FlatTurtle makes useful information accessible, in and around your location.</h2>
       </header>
-      <!-- extra info if needed...
-      <p>test</p>
-      -->
     </section>
   </article>
 
@@ -87,7 +84,7 @@
       We are open to any of your ideas. Our programmers are all ears to write Turtles for your display.
     </p>
     <p>
-      We are open to your own developers as well! Writing a Turtle is easy enough for any developer with some knowledge of Javascript and HTML to get started. This is perfect for organisations who want to have a display connected to their internal ERP, BI, CRM, fleet-management... system without having third party developers snooping around. <a href="http://dev.flatturtle.com">Read more...</a>
+      Hi developers, writing a Turtle is easy enough to get you started in no time. Want to write a Turtle for the display of your building? Have a look at our <a href="http://dev.flatturtle.com">developer portal</a>.
     </p>
     
   </article>

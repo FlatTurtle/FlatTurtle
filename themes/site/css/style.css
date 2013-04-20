@@ -264,7 +264,7 @@ header[role=banner] nav li a:hover {
 #elevator_pitch header h1 {
   line-height: 1.3em;
   /* 26px / 20px */
-  font-weight: 400;
+  font-weight: 100;
 }
 /* line 365, ../sass/partials/_page.scss */
 #elevator_pitch header h1 em {
@@ -1558,7 +1558,7 @@ form input#send_button {
   -webkit-appearance: none;
   border: none;
   cursor: pointer;
-  font-family: "Soho Gothic W01 Medium", sans-serif;
+  font-family: "Soho Gothic W01 Light", sans-serif;
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 26, 42, 0.33);
   background: #2257a6;
@@ -1568,7 +1568,7 @@ form input#send_button {
   padding : 4px 4px;
   /*padding: 0.9em 0.5em 1.05em 0.9em;*/
   margin: 0 0 1.25em 0;
-  font-size: 1em;
+  font-size: 0.8em;
   line-height: 1.3em;
   /*position: relative;*/
   -moz-box-shadow: 0 15px 12px -12px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.4);
