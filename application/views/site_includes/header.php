@@ -8,8 +8,8 @@
   <head>
     <meta charset='utf-8' />
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
-    <title>FlatTurtle - Data > Info >> Comfort</title>
-    <meta content='' name='description' />
+    <title>FlatTurtle - Making useful information accessible</title>
+    <meta content='Real-time digital signage for interesting locations' name='description' />
     <meta content='' name='author' />
     <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport' />
 

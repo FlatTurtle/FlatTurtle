@@ -136,8 +136,7 @@ header[role=banner] hgroup {
   max-width: 369px;
   /*height: 89px;*/
   float: left;
-  background: url(../img/logo_960_1x.gif) no-repeat;
-  margin: 3.55em 0 3.35em 1.5em;
+  margin: 0em 0 0em 0em;
 }
 /* line 254, ../sass/partials/_page.scss */
 header[role=banner] hgroup h1 {
@@ -152,7 +151,7 @@ header[role=banner] hgroup img {
 /* line 263, ../sass/partials/_page.scss */
 header[role=banner] nav {
   float: right;
-  padding: 1.2em 0 0 0;
+  padding: 1em 0 0 0;
 }
 /* line 266, ../sass/partials/_page.scss */
 header[role=banner] nav li {
@@ -164,7 +163,6 @@ header[role=banner] nav li {
 /* line 271, ../sass/partials/_page.scss */
 header[role=banner] nav li:last-child {
   margin: 0 0 0 2.2em;
-  border-left: 2px solid #ccc;
 }
 /* line 275, ../sass/partials/_page.scss */
 header[role=banner] nav li a {
@@ -266,7 +264,7 @@ header[role=banner] nav li a:hover {
 #elevator_pitch header h1 {
   line-height: 1.3em;
   /* 26px / 20px */
-  font-weight: 400;
+  font-weight: 100;
 }
 /* line 365, ../sass/partials/_page.scss */
 #elevator_pitch header h1 em {
@@ -612,7 +610,6 @@ only screen and (min-devicepixel-ratio: 1.5),
 only screen and (min-resolution: 1.5dppx) {
   /* line 514, ../sass/partials/_page.scss */
   #elevator_pitch {
-    background: #ededed url(../img/elevator_pitch_back_2x.jpg) no-repeat center bottom;
     -webkit-background-size: 2523px 713px;
     background-size: 2523px 713px;
   }
@@ -791,7 +788,6 @@ only screen and (min-resolution: 1.5dppx) and (max-width: 590px) {
 @media screen and (min-width: 950px) {
   /* line 676, ../sass/partials/_page.scss */
   #elevator_pitch {
-    background: #ededed url(../img/elevator_pitch_back.jpg) no-repeat center bottom;
   }
 }
 /*/mediaquery*/
@@ -1214,38 +1210,38 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
 }
 /*/mediaquery*/
 /* line 872, ../sass/partials/_page.scss */
-#contact_form {
+ {
   background: #21B0D7;
   text-shadow: 1px 1px 2px rgba(0, 26, 42, 0.33);
   color: #fff;
   padding: 2.35em 0 0 0;
   position: relative;
 }
-#contact_form a{
+ a{
   color: white;
 }
 
 /* line 878, ../sass/partials/_page.scss */
-#contact_form .placeholder {
+ .placeholder {
   font-family: "Soho Gothic W01 Regular", sans-serif;
   color: #000;
   padding: 0.7em 0 0 10px;
   color: #999;
 }
 /* line 884, ../sass/partials/_page.scss */
-#contact_form header, #contact_form > p, #contact_form form, #contact_form div.messages {
+ header,  > p,  form,  div.messages {
   width: 90%;
   max-width: 700px;
   margin: 0 auto;
 }
 /* line 889, ../sass/partials/_page.scss */
-#contact_form > p {
+ > p {
   line-height: 1.15em;
   /* 23/20 */
   padding: 0 0 1.47826087em 0;
 }
 /* line 892, ../sass/partials/_page.scss */
-#contact_form > p.to_top_link {
+ > p.to_top_link {
   position: relative;
   width: 90%;
   max-width: 700px;
@@ -1253,7 +1249,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   height: 2.3em;
 }
 /* line 200, ../sass/partials/_page.scss */
-#contact_form > p.to_top_link a {
+ > p.to_top_link a {
   background: #2257a6;
   color: white;
   font-size: 0.7em;
@@ -1266,7 +1262,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   text-shadow: none;
 }
 /* line 211, ../sass/partials/_page.scss */
-#contact_form > p.to_top_link a:after {
+ > p.to_top_link a:after {
   content: "〉";
   position: absolute;
   font-weight: 700;
@@ -1281,11 +1277,11 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   transform: rotate(270deg);
 }
 /* line 896, ../sass/partials/_page.scss */
-#contact_form div.messages {
+ div.messages {
   overflow: hidden;
 }
 /* line 898, ../sass/partials/_page.scss */
-#contact_form div.messages .message {
+ div.messages .message {
   background: #19a1d0;
   float: none;
   width: 70%;
@@ -1295,11 +1291,11 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   font-family: "Soho Gothic W01 Regular", sans-serif;
 }
 /* line 906, ../sass/partials/_page.scss */
-#contact_form div.messages .message.error {
+ div.messages .message.error {
   background: #19a1d0 url(../img/error_message_960_1x.png) no-repeat 3.571% center;
 }
 /* line 912, ../sass/partials/_page.scss */
-#contact_form header h1 {
+ header h1 {
   font-family: "Soho Gothic W01 Bold", sans-serif;
   font-size: 1.3em;
   /* 26/20 */
@@ -1307,19 +1303,19 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   padding: 0 0 1.153846154em 0;
 }
 /* line 920, ../sass/partials/_page.scss */
-#contact_form form legend, #contact_form form label {
+ form legend,  form label {
   position: absolute;
   left: -9999px;
 }
 /* line 924, ../sass/partials/_page.scss */
-#contact_form form p {
+ form p {
   width: 48.7142857%;
   float: left;
   padding: 0 0 0.75em 0;
   position: relative;
 }
 /* line 929, ../sass/partials/_page.scss */
-#contact_form form p.message {
+ form p.message {
   background: #19a1d0 url(../img/error_message_960_1x.png) no-repeat 3.571% center;
   float: none;
   width: 70%;
@@ -1329,7 +1325,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   font-family: "Soho Gothic W01 Regular", sans-serif;
 }
 /* line 937, ../sass/partials/_page.scss */
-#contact_form form p.message:after {
+ form p.message:after {
   content: "〉";
   position: absolute;
   font-weight: 700;
@@ -1346,13 +1342,13 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   transform: rotate(-90deg);
 }
 /* line 952, ../sass/partials/_page.scss */
-#contact_form form .sbHolder {
+ form .sbHolder {
   position: relative;
   width: 100%;
   margin: 2px 0 0 0;
 }
 /* line 957, ../sass/partials/_page.scss */
-#contact_form form .sbToggle {
+ form .sbToggle {
   -moz-box-sizing: border-box;
   /* http://paulirish.com/2012/box-sizing-border-box-ftw/  */
   -webkit-box-sizing: border-box;
@@ -1375,7 +1371,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   transform: rotate(90deg);
 }
 /* line 973, ../sass/partials/_page.scss */
-#contact_form form .sbToggle.sbToggleOpen {
+ form .sbToggle.sbToggleOpen {
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
@@ -1383,7 +1379,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   transform: rotate(-90deg);
 }
 /* line 976, ../sass/partials/_page.scss */
-#contact_form form .sbToggle:after {
+ form .sbToggle:after {
   content: "〉";
   font-weight: 700;
   font-size: 1.25em;
@@ -1394,7 +1390,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   left: 8px;
 }
 /* line 987, ../sass/partials/_page.scss */
-#contact_form form .sbSelector {
+ form .sbSelector {
   -moz-box-sizing: border-box;
   /* http://paulirish.com/2012/box-sizing-border-box-ftw/  */
   -webkit-box-sizing: border-box;
@@ -1420,7 +1416,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   z-index: 1;
 }
 /* line 1004, ../sass/partials/_page.scss */
-#contact_form form .sbOptions {
+ form .sbOptions {
   background: #f7f7f7;
   -moz-box-shadow: 0 15px 12px -12px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 15px 12px -12px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.4);
@@ -1433,39 +1429,39 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   z-index: 2;
 }
 /* line 1014, ../sass/partials/_page.scss */
-#contact_form form .sbOptions li:last-child a {
+ form .sbOptions li:last-child a {
   border: none;
 }
 /* line 1020, ../sass/partials/_page.scss */
-#contact_form form .sbOptions a:link, #contact_form form .sbOptions a:visited {
+ form .sbOptions a:link,  form .sbOptions a:visited {
   color: #333;
   text-shadow: none;
 }
 /* line 1024, ../sass/partials/_page.scss */
-#contact_form form .sbOptions a:hover {
+ form .sbOptions a:hover {
   background: #279ed2;
   color: #fff;
 }
 /* line 1030, ../sass/partials/_page.scss */
-#contact_form form fieldset {
+ form fieldset {
   border-bottom: 1px solid #4bbfdf;
   padding: 0 0 0.45em 0;
   margin: 0 0 1.25em 0;
 }
 /* line 1034, ../sass/partials/_page.scss */
-#contact_form form fieldset#message {
+ form fieldset#message {
   border: none;
   position: relative;
   padding: 0 0 1.25em 0;
   margin: 0;
 }
 /* line 1039, ../sass/partials/_page.scss */
-#contact_form form fieldset#message p {
+ form fieldset#message p {
   position: absolute;
   left: -9999px;
 }
 /* line 1044, ../sass/partials/_page.scss */
-#contact_form form fieldset#actions_and_messages {
+ form fieldset#actions_and_messages {
   border: none;
   margin: 0;
   padding: 0;
@@ -1474,7 +1470,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   overflow: hidden;
 }
 /* line 1051, ../sass/partials/_page.scss */
-#contact_form form fieldset#actions_and_messages:after {
+ form fieldset#actions_and_messages:after {
   content: "〉";
   position: absolute;
   font-weight: 700;
@@ -1485,33 +1481,33 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   cursor: pointer;
 }
 /* line 1062, ../sass/partials/_page.scss */
-#contact_form form fieldset p:nth-child(odd) {
+ form fieldset p:nth-child(odd) {
   float: right;
 }
 /* line 1066, ../sass/partials/_page.scss */
-#contact_form form fieldset#company_details p:nth-child(2) {
+ form fieldset#company_details p:nth-child(2) {
   width: 100%;
 }
 /* line 1068, ../sass/partials/_page.scss */
-#contact_form form fieldset#company_details p:nth-child(2) input {
+ form fieldset#company_details p:nth-child(2) input {
   width: 48.7142857%;
   padding: 12px 14px;
 }
 /* line 1072, ../sass/partials/_page.scss */
-#contact_form form fieldset#company_details p:nth-child(2) .inline_error_message {
+ form fieldset#company_details p:nth-child(2) .inline_error_message {
   left: 48.7142857%;
   margin: -19px 0 0 -14px;
 }
 /* line 1077, ../sass/partials/_page.scss */
-#contact_form form fieldset#company_details p:nth-child(odd) {
+ form fieldset#company_details p:nth-child(odd) {
   float: left;
 }
 /* line 1080, ../sass/partials/_page.scss */
-#contact_form form fieldset#company_details p:nth-child(even) {
+ form fieldset#company_details p:nth-child(even) {
   float: right;
 }
 /* line 1086, ../sass/partials/_page.scss */
-#contact_form form .inline_error_message {
+ form .inline_error_message {
   position: absolute;
   right: -12px;
   top: 50%;
@@ -1524,9 +1520,9 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   margin: -19px 0 0 0;
 }
 /* line 1099, ../sass/partials/_page.scss */
-#contact_form form input {
+ form input {
   font-family: "Soho Gothic W01 Regular", sans-serif;
-  font-size: inherit;
+  font-size: 12;
   line-height: 1.3em;
   border: 2px solid #21b0d7;
   width: 100%;
@@ -1534,7 +1530,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   /* http://paulirish.com/2012/box-sizing-border-box-ftw/  */
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 12px 14px;
+  padding: 4px 4px;
   color: #333;
   position: relative;
   -webkit-border-radius: 0;
@@ -1549,38 +1545,39 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   background-image: linear-gradient(top, #b2b2b2 0%, #ffffff 25%);
 }
 /* line 1117, ../sass/partials/_page.scss */
-#contact_form form input:focus {
+form input:focus {
   border: 2px solid #2257a6;
   color: #2257a6;
 }
 /* line 1121, ../sass/partials/_page.scss */
-#contact_form form input.error {
+form input.error {
   border: 2px solid #d63260;
 }
 /* line 1124, ../sass/partials/_page.scss */
-#contact_form form input#send_button {
+form input#send_button {
   -webkit-appearance: none;
   border: none;
   cursor: pointer;
-  font-family: "Soho Gothic W01 Medium", sans-serif;
+  font-family: "Soho Gothic W01 Light", sans-serif;
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 26, 42, 0.33);
   background: #2257a6;
   text-decoration: none;
   display: block;
-  text-align: left;
-  padding: 0.9em 0.5em 1.05em 0.9em;
+  text-align: center;
+  padding : 4px 4px;
+  /*padding: 0.9em 0.5em 1.05em 0.9em;*/
   margin: 0 0 1.25em 0;
-  font-size: 1em;
+  font-size: 0.8em;
   line-height: 1.3em;
-  position: relative;
+  /*position: relative;*/
   -moz-box-shadow: 0 15px 12px -12px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 15px 12px -12px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.4);
   -o-box-shadow: 0 15px 12px -12px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.4);
   box-shadow: 0 15px 12px -12px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 /* line 1141, ../sass/partials/_page.scss */
-#contact_form form input#send_button:hover {
+ form input#send_button:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFkNGM5MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzIyNTdhNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1d4c91), color-stop(100%, #2257a6));
@@ -1597,7 +1594,7 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   top: 1px;
 }
 /* line 1149, ../sass/partials/_page.scss */
-#contact_form form textarea {
+ form textarea {
   font-family: "Soho Gothic W01 Regular", sans-serif;
   font-size: inherit;
   line-height: 1.3em;
@@ -1623,41 +1620,41 @@ only screen and (min-resolution: 1.5dppx) and (min-width: 950px) {
   background-image: linear-gradient(top, #b2b2b2 0%, #ffffff 7%);
 }
 /* line 1172, ../sass/partials/_page.scss */
-#contact_form form textarea:focus {
+ form textarea:focus {
   border: 2px solid #2257a6;
   color: #2257a6;
 }
 /* line 1176, ../sass/partials/_page.scss */
-#contact_form form textarea.error {
+ form textarea.error {
   border: 2px solid #d63260;
 }
 /* line 1180, ../sass/partials/_page.scss */
-#contact_form form input::-webkit-input-placeholder {
+ form input::-webkit-input-placeholder {
   font-family: "Soho Gothic W01 Regular", sans-serif;
   color: #999;
 }
 /* line 1184, ../sass/partials/_page.scss */
-#contact_form form input:-moz-placeholder {
+ form input:-moz-placeholder {
   font-family: "Soho Gothic W01 Regular", sans-serif;
   color: #999;
 }
 /* line 1188, ../sass/partials/_page.scss */
-#contact_form form input:-ms-input-placeholder {
+ form input:-ms-input-placeholder {
   font-family: "Soho Gothic W01 Regular", sans-serif;
   color: #999;
 }
 /* line 1192, ../sass/partials/_page.scss */
-#contact_form form textarea::-webkit-input-placeholder {
+ form textarea::-webkit-input-placeholder {
   font-family: "Soho Gothic W01 Regular", sans-serif;
   color: #999;
 }
 /* line 1197, ../sass/partials/_page.scss */
-#contact_form form textarea:-moz-placeholder {
+ form textarea:-moz-placeholder {
   font-family: "Soho Gothic W01 Regular", sans-serif;
   color: #999;
 }
 /* line 1201, ../sass/partials/_page.scss */
-#contact_form form textarea:-ms-input-placeholder {
+ form textarea:-ms-input-placeholder {
   font-family: "Soho Gothic W01 Regular", sans-serif;
   color: #999;
 }
@@ -1669,13 +1666,13 @@ only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min-devicepixel-ratio: 1.5),
 only screen and (min-resolution: 1.5dppx) {
   /* line 1218, ../sass/partials/_page.scss */
-  #contact_form div.messages .message.error {
+   div.messages .message.error {
     background: #19a1d0 url(../img/error_message_960_2x.png) no-repeat 3.571% center;
     -webkit-background-size: 58px 50px;
     background-size: 58px 50px;
   }
   /* line 1231, ../sass/partials/_page.scss */
-  #contact_form form .inline_error_message {
+   form .inline_error_message {
     background: url(../img/inline_error_message_960_2x.png) no-repeat;
     -webkit-background-size: 25px 25px;
     background-size: 25px 25px;
@@ -1684,53 +1681,53 @@ only screen and (min-resolution: 1.5dppx) {
 /* phone to tablet */
 @media screen and (max-width: 590px) {
   /* line 1242, ../sass/partials/_page.scss */
-  #contact_form {
+   {
     padding: 0.28em 0 0 0;
   }
   /* line 1244, ../sass/partials/_page.scss */
-  #contact_form header, #contact_form > p, #contact_form form, #contact_form div.messages {
+   header,  > p,  form,  div.messages {
     width: 81.25%;
   }
   /* line 1249, ../sass/partials/_page.scss */
-  #contact_form div.messages .message {
+   div.messages .message {
     padding: 1.5em 23%;
     font-size: 0.7em;
     padding-left: 29%;
   }
   /* line 1257, ../sass/partials/_page.scss */
-  #contact_form > p.to_top_link {
+   > p.to_top_link {
     display: none;
   }
   /* line 1262, ../sass/partials/_page.scss */
-  #contact_form form .sbHolder {
+   form .sbHolder {
     height: 55px;
   }
   /* line 1265, ../sass/partials/_page.scss */
-  #contact_form form input {
+   form input {
     width: 100%;
   }
   /* line 1268, ../sass/partials/_page.scss */
-  #contact_form form p {
+   form p {
     width: 100%;
   }
   /* line 1273, ../sass/partials/_page.scss */
-  #contact_form form fieldset#company_details p:nth-child(2) {
+   form fieldset#company_details p:nth-child(2) {
     float: none;
   }
   /* line 1275, ../sass/partials/_page.scss */
-  #contact_form form fieldset#company_details p:nth-child(2) input {
+   form fieldset#company_details p:nth-child(2) input {
     width: 100%;
   }
   /* line 1278, ../sass/partials/_page.scss */
-  #contact_form form fieldset#company_details p:nth-child(2) .inline_error_message {
+   form fieldset#company_details p:nth-child(2) .inline_error_message {
     left: inherit;
   }
   /* line 1282, ../sass/partials/_page.scss */
-  #contact_form form fieldset#company_details p:nth-child(odd), #contact_form form fieldset#company_details p:nth-child(even) {
+   form fieldset#company_details p:nth-child(odd),  form fieldset#company_details p:nth-child(even) {
     float: none;
   }
   /* line 1286, ../sass/partials/_page.scss */
-  #contact_form form fieldset p:nth-child(odd), #contact_form form fieldset p:nth-child(even) {
+   form fieldset p:nth-child(odd),  form fieldset p:nth-child(even) {
     float: none;
   }
 }
@@ -2311,7 +2308,7 @@ footer .vcard p:last-child {
   }
 
   /* line 1726, ../sass/partials/_page.scss */
-  #contact_form form .sbToggle {
+   form .sbToggle {
     width: 35px;
   }
 }
