@@ -4,4 +4,4 @@ This repository contains all the files for the [FlatTurtle.com](http://flatturtl
 
 ## Copyright
 
-(c) 2011-2012 FlatTurtle
+(c) 2011-2013 FlatTurtle
