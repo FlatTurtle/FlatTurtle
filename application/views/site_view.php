@@ -26,7 +26,7 @@
     </section>
     <section class="call_to_action">
       <header>
-        <h2>FlatTurtle makes useful information accessible, in and around your location.</h2>
+        <h2>FlatTurtle makes real-time information accessible, in and around your location.</h2>
       </header>
     </section>
   </article>
@@ -63,7 +63,7 @@
         <p class="download_vcard"><a class="gradient" href="https://who.flatturtle.com/pieter_colpaert.vcf">Download vCard <span class="icon">!</span></a></p>
       </li>
       <li class="vcard">
-        <img src="<?php echo base_url(); ?>themes/site/img/christophe_960_1x.png" alt="Cristophe Petitjean" />
+        <img src="<?php echo base_url(); ?>themes/site/img/christophe_960_1x.png" alt="Christophe Petitjean" />
         <header>
 	  <hgroup>
 	    <h1 class="fn n"><span class="given-name">Christophe</span> <span class="family-name">Petitjean</span></h1>
