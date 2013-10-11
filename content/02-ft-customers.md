@@ -15,7 +15,6 @@ These companies have put their trust in FlatTurtle:
 ![P&V](https://img.flatturtle.com/flatturtle.com/customers/pv.png)
 ![Tribeca](https://img.flatturtle.com/flatturtle.com/customers/tribeca.png)
 ![UBS](https://img.flatturtle.com/flatturtle.com/customers/ubs.png)
-</center>
 
 "**A very positive impression**... 
 Provides useful information and adds a dynamic image."
@@ -31,3 +30,4 @@ Provides useful information and adds a dynamic image."
 &mdash; Christophe Jacobs, Codic
 
 ***
+</center>

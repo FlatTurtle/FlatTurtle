@@ -83,7 +83,6 @@ Sales
 
 <div class="row"><div class="col-md-6">![Edouard Moreels](https://img.flatturtle.com/flatturtle.com/team/edouard.jpg)
 
-
 ### Edouard Moreels
 #### Business developer
 
