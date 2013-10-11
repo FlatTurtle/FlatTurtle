@@ -88,9 +88,7 @@ Sales
 
 Marketing & Real Estate Communication Specialist with about 20 years of experience in Belgian Commercial Real Estate (CBRE, Hooox)
 
-</div><div class="col-md-6">
-
-![Serge Vandaele](https://img.flatturtle.com/flatturtle.com/team/serge.jpg)
+</div><div class="col-md-6">![Serge Vandaele](https://img.flatturtle.com/flatturtle.com/team/serge.jpg)
 
 ### Serge Vandaele
 #### Business developer
