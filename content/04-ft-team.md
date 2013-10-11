@@ -34,7 +34,7 @@ Christophe Petitjean, economist and Junior Achievement/INSEAD-product, has been 
 DevOps
 ------
 
-<div class="row"><div class="col-md-4">![Nik Torfs](https://img.flatturtle.com/flatturtle.com/team/nik.png)
+<div class="row"><div class="col-md-4">![Nik Torfs](https://img.flatturtle.com/flatturtle.com/team/nik.jpg)
 
 ### Nik Torfs
 #### Turtle developer
@@ -48,21 +48,21 @@ Developer, Computer Science engineer.
 
 Developer, Engineer & Hardware Geek. Also owns a WiFi company. 
 
-</div><div class="col-md-4">![Michiel Vancoillie](https://img.flatturtle.com/flatturtle.com/team/michiel.png)
+</div><div class="col-md-4">![Michiel Vancoillie](https://img.flatturtle.com/flatturtle.com/team/michiel.jpg)
 
 ### Michiel Vancoillie
 #### JS & PHP guru
 
 Web & Software Developer, Engineer.
 
-![Quentin Kaiser](https://img.flatturtle.com/flatturtle.com/team/quentin.png)
+![Quentin Kaiser](https://img.flatturtle.com/flatturtle.com/team/quentin.jpg)
 
 ### Quentin Kaiser
 #### API master
 
 Built the reservation API. Also helps with the open data part. 
 
-</div><div class="col-md-4">![Johan Dams](https://img.flatturtle.com/flatturtle.com/team/johan.png)
+</div><div class="col-md-4">![Johan Dams](https://img.flatturtle.com/flatturtle.com/team/johan.jpg)
 
 ### Johan Dams
 #### Linux engineer
@@ -81,7 +81,7 @@ Java Developer, Scrum master. Also king of our internal communication tools.
 Sales
 -----
 
-<div class="row"><div class="col-md-6">![Edouard Moreels](https://img.flatturtle.com/flatturtle.com/team/edouard.png)
+<div class="row"><div class="col-md-6">![Edouard Moreels](https://img.flatturtle.com/flatturtle.com/team/edouard.jpg)
 
 
 ### Edouard Moreels
