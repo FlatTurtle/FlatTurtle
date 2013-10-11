@@ -1,8 +1,7 @@
 Customers
 =========
 
-These companies have put their trust in FlatTurtle:
----------------------------------------------------
+### These companies have put their trust in FlatTurtle:
 
 <center>
 "**A very positive impression**... 
@@ -25,8 +24,8 @@ Provides useful information and adds a dynamic image."
 ![Banimmo](https://img.flatturtle.com/flatturtle.com/customers/banimmo.png) 
 ![Codic](https://img.flatturtle.com/flatturtle.com/customers/codic.png) 
 ![Mensura](https://img.flatturtle.com/flatturtle.com/customers/mensura.png) 
-![Tribeca](https://img.flatturtle.com/flatturtle.com/customers/tribeca.png) 
 
+![Tribeca](https://img.flatturtle.com/flatturtle.com/customers/tribeca.png) 
 ![Eurest](https://img.flatturtle.com/flatturtle.com/customers/eurest.png) 
 ![EuroCapitalProperty](https://img.flatturtle.com/flatturtle.com/customers/eurocapitalproperty.png) 
 ![IVG](https://img.flatturtle.com/flatturtle.com/customers/ivg.png) 
