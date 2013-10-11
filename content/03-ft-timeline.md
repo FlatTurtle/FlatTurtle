@@ -19,7 +19,7 @@ Setting off to college by train everyday, young & handsome (especially young) st
 06/2010 - Example followed... And sued
 --------------------------------------
 
-1,5 years later, the Belgian railway operator finally launches their own mobile application and threatens Yeri with a lawsuit running the free iRail.be website. Belgium is somewhat shocked by this reaction and under huge media attention, young student Yeri and his iRail.be got 10.672 views in just 3 days, sparking many young enthusiasts from all over the country, such as Pieter Colpaert, to support and share Yeri's initiative.
+One and a half years later, the Belgian railway operator finally launches their own mobile application and threatens Yeri with a lawsuit running the free iRail.be website. Belgium is somewhat shocked by this reaction and under huge media attention, young student Yeri and his iRail.be got 10.672 views in just 3 days, sparking many young enthusiasts from all over the country, such as Pieter Colpaert, to support and share Yeri's initiative.
 
 01/2011 - Community driven development: iRail
 ---------------------------------------------
