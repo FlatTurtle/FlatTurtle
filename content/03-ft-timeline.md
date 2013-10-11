@@ -25,12 +25,14 @@ Setting off to college by train everyday, young & handsome (especially young) st
 ---------------------------------------------
 
 <div class="row"><div class="col-md-9">
+
 The lawsuit, meanwhile being discussed in the Flemish Parlaiment, inspires a whole bunch of digital creatives to group under the [iRail Not for Profit Organisation](http://hello.iRail.be) as an ever growing community open for students, developers & enthusiasts. iRail is currently part of the even larger [Open Knowledge Foundation](http://okfn.be) and aims to support digital creativity with a touch of mobility and open data.
 
 </div><div class="col-md-3">
 
 ![iRail](https://img.flatturtle.com/flatturtle.com/irail.png)
 ![okfn](https://img.flatturtle.com/flatturtle.com/okfn.png)
+
 </div></div>
 
 02/2011 - FlatTurtle is born in a Flat World
