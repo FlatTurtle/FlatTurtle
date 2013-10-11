@@ -3,7 +3,7 @@
 return array(
 
 	// FlatTurtle id
-	'id' => 'demo',
+	'id' => 'FlatTurtle',
 
 	// Template file
 	'template' => 'template',
