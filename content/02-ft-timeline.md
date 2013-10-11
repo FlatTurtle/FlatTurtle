@@ -24,12 +24,12 @@ Setting off to college by train everyday, young & handsome (especially young) st
 01/2011 - Community driven development: iRail
 ---------------------------------------------
 
-<div class="row"><div class="col-md-6">
+<div class="row"><div class="col-md-2">
 
 ![iRail](https://img.flatturtle.com/flatturtle.com/irail.png)
 ![okfn](https://img.flatturtle.com/flatturtle.com/okfn.png)
 
-</div><div class="col-md-6">
+</div><div class="col-md-10">
 
 The lawsuit, meanwhile being discussed in the Flemish Parlaiment, inspires a whole bunch of digital creatives to group under the [iRail Not for Profit Organisation](http://hello.iRail.be) as an ever growing community open for students, developers & enthusiasts. iRail is currently part of the even larger [Open Knowledge Foundation](http://okfn.be) and aims to support digital creativity with a touch of mobility and open data.
 
@@ -56,4 +56,4 @@ Mobility is great. Especially in these times. But at FlatTurtle we think the sky
 The story doesn't quite stop here
 ---------------------------------
 
-Get more up to date news on our [blog](http://blog.flatturtle.com)
+Get more up to date news on our [blog](http://blog.flatturtle.com).
