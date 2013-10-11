@@ -1,8 +1,6 @@
 Customers
 =========
 
-#### These companies have put their trust in FlatTurtle:
-
 <center>
 ### "A **very positive impression**... Provides useful information and adds a dynamic image."
 
