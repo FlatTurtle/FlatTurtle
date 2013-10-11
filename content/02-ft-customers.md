@@ -1,19 +1,18 @@
 Customers
 =========
 
-### These companies have put their trust in FlatTurtle:
+#### These companies have put their trust in FlatTurtle:
 
 <center>
-"**A very positive impression**... 
-Provides useful information and adds a dynamic image."
+### "A **very positive impression**... Provides useful information and adds a dynamic image."
 
 &mdash; Christophe Mignot, IVG
 
-"**MyTurtle is amazing**."
+### "**MyTurtle is amazing**."
 
 &mdash; Edouard Moreels, Business developer Realty
 
-"FlatTurtle visualises **useful information** well about a specific location, in real-time."
+### "FlatTurtle visualises **useful information** well about a specific location, in real-time."
 
 &mdash; Christophe Jacobs, Codic
 

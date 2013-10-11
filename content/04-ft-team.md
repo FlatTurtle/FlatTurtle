@@ -41,7 +41,7 @@ DevOps
 
 Developer, Computer Science engineer. 
 
-![Jens Segers](https://img.flatturtle.com/flatturtle.com/team/jens.jpg)
+</div><div class="col-md-4">![Jens Segers](https://img.flatturtle.com/flatturtle.com/team/jens.jpg)
 
 ### Jens Segers
 #### Front-end & sites
@@ -55,7 +55,7 @@ Developer, Engineer & Hardware Geek. Also owns a WiFi company.
 
 Web & Software Developer, Engineer.
 
-![Quentin Kaiser](https://img.flatturtle.com/flatturtle.com/team/quentin.jpg)
+</div></div><div class="row"><div class="col-md-4">![Quentin Kaiser](https://img.flatturtle.com/flatturtle.com/team/quentin.jpg)
 
 ### Quentin Kaiser
 #### API master
@@ -69,7 +69,7 @@ Built the reservation API. Also helps with the open data part.
 
 Embedded Engineering, The Technology for Change Foundation
 
-![Maarten Cautreels](https://img.flatturtle.com/flatturtle.com/team/maarten.jpg)
+</div><div class="col-md-4">![Maarten Cautreels](https://img.flatturtle.com/flatturtle.com/team/maarten.jpg)
 
 ### Maarten Cautreels
 #### Java and PHP dev
