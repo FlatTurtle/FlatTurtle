@@ -34,14 +34,40 @@ Christophe Petitjean, economist and Junior Achievement/INSEAD-product, has been 
 DevOps
 ------
 
+### Nik Torfs
+#### Turtle developer
 
+Developer, Computer Science engineer. 
+
+### Jens Segers
+#### Front-end & sites
+
+Developer, Engineer & Hardware Geek. Also owns a WiFi company. 
+
+### Michiel Vancoillie
+#### JS & PHP guru
+
+Web & Software Developer, Engineer.
+
+### Quentin Kaiser
+#### API master
+
+Built the reservation API. Also helps with the open data part. 
+
+### Johan Dams
+#### Linux engineer
+
+Embedded Engineering, The Technology for Change Foundation
+
+### Maarten Cautreels
+#### Java and PHP dev
+
+Java Developer, Scrum master. Also king of our internal communication tools. 
 
 Sales
 -----
 
-<div class="row"><div class="col-md-6">
-
-![Edouard Moreels](https://img.flatturtle.com/flatturtle.com/team/edouard.png)
+<div class="row"><div class="col-md-6">![Edouard Moreels](https://img.flatturtle.com/flatturtle.com/team/edouard.png)
 
 
 ### Edouard Moreels
@@ -56,6 +82,4 @@ Marketing & Real Estate Communication Specialist with about 20 years of experien
 ### Serge Vandaele
 #### Business developer
 
-Sales Specialist with about 13 years of experience in Telecom (Sony, Telenet, Motorola)
-
-</div></div>
+Sales Specialist with about 13 years of experience in Telecom (Sony, Telenet, Motorola)</div></div>
