@@ -4,7 +4,7 @@ Team
 Founding fathers
 ----------------
 
-<div class="row"><div class="col-md-4">![Yeri Tiete](https://img.flatturtle.com/flatturtle.com/team/yeri.png)
+<div class="row"><div class="col-md-4">![Yeri Tiete](https://img.flatturtle.com/flatturtle.com/team/yeri.jpg)
 
 ### Yeri Tiete
 
@@ -21,7 +21,7 @@ With no mobile application available for public transport while Yeri was a stude
 
 Pieter Colpaert, engineer and chairman of the [Open Knowledge Foundation](http://okfn.be) Belgium is currently doing his PhD on Linked Open Data at the University of Ghent. He is a true open knowledge enthusiast, inspiring guest speaker at Open Government Data Camp, European Commission, TEDx, SuperMinds, Re:Publica, ... Some even call him a Guru. 
 
-</div><div class="col-md-4">![Christophe Petitjean](https://img.flatturtle.com/flatturtle.com/team/christophe.png)
+</div><div class="col-md-4">![Christophe Petitjean](https://img.flatturtle.com/flatturtle.com/team/christophe.jpg)
 
 ### Christophe Petitjean
 
@@ -41,7 +41,7 @@ DevOps
 
 Developer, Computer Science engineer. 
 
-![Jens Segers](https://img.flatturtle.com/flatturtle.com/team/jens.png)
+![Jens Segers](https://img.flatturtle.com/flatturtle.com/team/jens.jpg)
 
 ### Jens Segers
 #### Front-end & sites
