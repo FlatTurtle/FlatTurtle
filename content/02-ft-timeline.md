@@ -21,15 +21,15 @@ Setting off to college by train everyday, young & handsome (especially young) st
 
 1,5 years later, the Belgian railway operator finally launches their own mobile application and threatens Yeri with a lawsuit running the free iRail.be website. Belgium is somewhat shocked by this reaction and under huge media attention, young student Yeri and his iRail.be got 10.672 views in just 3 days, sparking many young enthusiasts from all over the country, such as Pieter Colpaert, to support and share Yeri's initiative.
 
+01/2011 - Community driven development: iRail
+---------------------------------------------
+
 <div class="row"><div class="col-md-6">
 
 ![iRail](https://img.flatturtle.com/flatturtle.com/irail.png)
 ![okfn](https://img.flatturtle.com/flatturtle.com/okfn.png)
 
 </div><div class="col-md-6">
-
-01/2011 - Community driven development: iRail
----------------------------------------------
 
 The lawsuit, meanwhile being discussed in the Flemish Parlaiment, inspires a whole bunch of digital creatives to group under the [iRail Not for Profit Organisation](http://hello.iRail.be) as an ever growing community open for students, developers & enthusiasts. iRail is currently part of the even larger [Open Knowledge Foundation](http://okfn.be) and aims to support digital creativity with a touch of mobility and open data.
 
