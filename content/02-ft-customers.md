@@ -2,20 +2,9 @@ Customers
 =========
 
 These companies have put their trust in FlatTurtle:
+---------------------------------------------------
 
 <center>
-![Aberdeen](https://img.flatturtle.com/flatturtle.com/customers/aberdeen.png)
-![Allianz](https://img.flatturtle.com/flatturtle.com/customers/allianz.png)
-![Banimmo](https://img.flatturtle.com/flatturtle.com/customers/banimmo.png)
-![Codic](https://img.flatturtle.com/flatturtle.com/customers/codic.png)
-
-![Eurest](https://img.flatturtle.com/flatturtle.com/customers/eurest.png)
-![EuroCapitalProperty](https://img.flatturtle.com/flatturtle.com/customers/eurocapitalproperty.png)
-![IVG](https://img.flatturtle.com/flatturtle.com/customers/ivg.png)
-![P&V](https://img.flatturtle.com/flatturtle.com/customers/pv.png)
-![Tribeca](https://img.flatturtle.com/flatturtle.com/customers/tribeca.png)
-![UBS](https://img.flatturtle.com/flatturtle.com/customers/ubs.png)
-
 "**A very positive impression**... 
 Provides useful information and adds a dynamic image."
 
@@ -30,4 +19,17 @@ Provides useful information and adds a dynamic image."
 &mdash; Christophe Jacobs, Codic
 
 ***
+
+![Aberdeen](https://img.flatturtle.com/flatturtle.com/customers/aberdeen.png) 
+![Allianz](https://img.flatturtle.com/flatturtle.com/customers/allianz.png) 
+![Banimmo](https://img.flatturtle.com/flatturtle.com/customers/banimmo.png) 
+![Codic](https://img.flatturtle.com/flatturtle.com/customers/codic.png) 
+![Mensura](https://img.flatturtle.com/flatturtle.com/customers/mensura.png) 
+![Tribeca](https://img.flatturtle.com/flatturtle.com/customers/tribeca.png) 
+
+![Eurest](https://img.flatturtle.com/flatturtle.com/customers/eurest.png) 
+![EuroCapitalProperty](https://img.flatturtle.com/flatturtle.com/customers/eurocapitalproperty.png) 
+![IVG](https://img.flatturtle.com/flatturtle.com/customers/ivg.png) 
+![P&V](https://img.flatturtle.com/flatturtle.com/customers/pv.png) 
+![UBS](https://img.flatturtle.com/flatturtle.com/customers/ubs.png) 
 </center>
