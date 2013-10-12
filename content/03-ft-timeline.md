@@ -11,10 +11,10 @@ Christopher Columbus sets sail for India, going west. He had 3 ships, never foun
 
 512 years later, Thomas Friedman sets off for India, going east. He had Lufthansa business class and came home to report to his wife : "**The world is flat**."
 
-<div class="row"><div class="col-md-10">
-
 09/2008 - First mobile iPhone app
 ---------------------------------
+
+<div class="row"><div class="col-md-10">
 
 Setting off to college by train everyday, young & handsome (especially young) student Yeri Tiete keeps on missing out on some of his more interesting courses due to frequent delays of his train. Equipped with his iPhone, Yeri gets all inspired for the summer... he posts "Wouldn't it be cool if we had some open API, where we could submit departure station, arrival." With no iPhone compatible website or application around, Yeri - always late for college - develops and shares his own "railroute planner" for every iPhone user on this planet: "[iRail.be](http://irail.be) a mobile platform available to serve the mobile traveller".
 
