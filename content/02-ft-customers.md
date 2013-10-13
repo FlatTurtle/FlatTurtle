@@ -20,12 +20,12 @@ Customers
 ![Allianz](https://img.flatturtle.com/flatturtle.com/customers/allianz.png) 
 ![Banimmo](https://img.flatturtle.com/flatturtle.com/customers/banimmo.png) 
 ![Codic](https://img.flatturtle.com/flatturtle.com/customers/codic.png) 
-![Mensura](https://img.flatturtle.com/flatturtle.com/customers/mensura.png) 
-
-![Tribeca](https://img.flatturtle.com/flatturtle.com/customers/tribeca.png) 
 ![Eurest](https://img.flatturtle.com/flatturtle.com/customers/eurest.png) 
 ![EuroCapitalProperty](https://img.flatturtle.com/flatturtle.com/customers/eurocapitalproperty.png) 
 ![IVG](https://img.flatturtle.com/flatturtle.com/customers/ivg.png) 
+![Mensura](https://img.flatturtle.com/flatturtle.com/customers/mensura.png) 
 ![P&V](https://img.flatturtle.com/flatturtle.com/customers/pv.png) 
+![Realty](https://img.flatturtle.com/flatturtle.com/customers/realty.png) 
+![Tribeca](https://img.flatturtle.com/flatturtle.com/customers/tribeca.png) 
 ![UBS](https://img.flatturtle.com/flatturtle.com/customers/ubs.png) 
 </center>

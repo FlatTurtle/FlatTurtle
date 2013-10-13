@@ -8,7 +8,7 @@ Founding fathers
 
 ### YERI TIETE
 
-##### CEO (Cool Eccentric Octopus)
+##### CAPTAIN
 
 Yeri Tiete, system engineer and chairman of [iRail](http://hello.iRail.be) - the NPO supporting digital creativity concerning transport - left [Google](https://www.google.com/about/jobs/locations/saint-ghislain) to dedicate himself entirely to FlatTurtle. 
 With no mobile application available for public transport while Yeri was a student, he decided to build one himself and share it with others, for free, thereby causing great havoc (& fun) becoming subject of a discussion in the Flemish parliament.
@@ -36,43 +36,43 @@ DevOps
 
 <div class="row"><div class="col-md-4">![Nik Torfs](https://img.flatturtle.com/flatturtle.com/team/nik.jpg)
 
-### Nik Torfs
-#### Turtle developer
+### NIK TORFS
+##### TURTLE RIDER
 
 Developer, Computer Science engineer. 
 
 </div><div class="col-md-4">![Jens Segers](https://img.flatturtle.com/flatturtle.com/team/jens.jpg)
 
-### Jens Segers
-#### Front-end & sites
+### JENS SEGERS
+##### DESIGN AND FRONT-END (NO RLY)
 
 Developer, Engineer & Hardware Geek. Also owns a WiFi company. 
 
 </div><div class="col-md-4">![Michiel Vancoillie](https://img.flatturtle.com/flatturtle.com/team/michiel.jpg)
 
-### Michiel Vancoillie
-#### JS & PHP guru
+### MICHIEL VANCOILLIER
+##### JS AND PHP WIZARD
 
 Web & Software Developer, Engineer.
 
 </div></div><div class="row"><div class="col-md-4">![Quentin Kaiser](https://img.flatturtle.com/flatturtle.com/team/quentin.jpg)
 
-### Quentin Kaiser
-#### API master
+### QUENTIN KAISER
+##### API MASTER
 
 Built the reservation API. Also helps with the open data part. 
 
 </div><div class="col-md-4">![Johan Dams](https://img.flatturtle.com/flatturtle.com/team/johan.jpg)
 
-### Johan Dams
-#### Linux engineer
+### JOHAN DAMS
+##### LINUX JEDI
 
 Embedded Engineering, The Technology for Change Foundation
 
 </div><div class="col-md-4">![Maarten Cautreels](https://img.flatturtle.com/flatturtle.com/team/maarten.jpg)
 
-### Maarten Cautreels
-#### Java and PHP dev
+### MAARTEN CAUTREELS
+##### JAVACUZZI CODER
 
 Java Developer, Scrum master. Also king of our internal communication tools. 
 
@@ -83,14 +83,14 @@ Sales
 
 <div class="row"><div class="col-md-6">![Edouard Moreels](https://img.flatturtle.com/flatturtle.com/team/edouard.jpg)
 
-### Edouard Moreels
-#### Business developer
+### EDOUARD MOREELS
+##### BUSINESS DEVELOPER
 
 Marketing & Real Estate Communication Specialist with about 20 years of experience in Belgian Commercial Real Estate (CBRE, Hooox)
 
 </div><div class="col-md-6">![Serge Vandaele](https://img.flatturtle.com/flatturtle.com/team/serge.jpg)
 
-### Serge Vandaele
-#### Business developer
+### SERGE VANDAELE
+##### BUSINESS DEVELOPER
 
 Sales Specialist with about 13 years of experience in Telecom (Sony, Telenet, Motorola)</div></div>
