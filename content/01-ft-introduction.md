@@ -2,9 +2,12 @@ FlatTurtle
 ==========
 
 # FlatTurtle visualises real-time info
-## in and around your location
+## ... in and around your location
 
-FlatTurtle is a real-time digital signage provider. We visualise useful information in and around a certain location on huge displays.
+FlatTurtle is a real-time digital signage provider. 
+We visualise useful information in and around a certain location on huge displays.
+
+## This is why you should choose for us: 
 
 <div class="row"><div class="col-md-1">
 
@@ -14,7 +17,8 @@ FlatTurtle is a real-time digital signage provider. We visualise useful informat
 
 ## Real-time
 
-Real-time means real-time. It's live. FlatTurtle doesn't pull new information every few minutes; we push directly whenever we get newly, updated info. 
+Real-time means real-time. It's live. Now is now, not in 5 minutes. 
+FlatTurtle doesn't pull new information every few minutes; we push directly whenever we get newly, updated info. 
 
 </div></div>
 
@@ -26,7 +30,8 @@ Real-time means real-time. It's live. FlatTurtle doesn't pull new information ev
 
 ## Personalise
 
-Make a suitable impression, and personalise it to your (or your client's) look-and-feel. All this, via a webbased [panel](https://my.flatturtle.com/).
+Make the best first impression, and personalise it to your (or your client's) look-and-feel. All this, via a webbased [panel](https://my.flatturtle.com/). 
+You can single-handedly add, remove, and edit what you want to visualise. It's so simple even our mothers could use it. 
 
 </div></div>
 
@@ -38,7 +43,7 @@ Make a suitable impression, and personalise it to your (or your client's) look-a
 
 ## Smart
 
-Our team is involved: all of us have a history in (open) data, web, and embedded devices. 
+Our team is involved: all of us have a history in (open) data, web, and embedded devices. So you're probably at the right address if you're looking for a way to visualise available any kind of information.
 
 </div></div>
 
@@ -50,7 +55,7 @@ Our team is involved: all of us have a history in (open) data, web, and embedded
 
 ## Open data
 
-The iRail and OKFN community-driven DataTank links any dataset and generates fresh content for you. 
+The iRail and OKFN community-driven DataTank links any dataset and generates fresh content for you. But our tools work with public and private data. So if you have anything you would like to visualise; we can do it. 
 
 </div></div>
 
@@ -62,7 +67,8 @@ The iRail and OKFN community-driven DataTank links any dataset and generates fre
 
 ## Cloud
 
-Except for the embedded device that controls your display, all of our services are cloud-based. So all you need is a simple internet connection and you're ready to go. This also means no hidden fees, no expensive licenses, no servers to manage. Oh, and that one device on premises, is entirely managed and updated by us. For you, that means it's plug & play. 
+Except for the embedded device that controls your display, all of our services are cloud-based. So all you need is a simple internet connection and you're ready to go. This also means no hidden fees, no expensive licenses, no servers to manage. 
+Oh, and that one device on premises, is entirely managed and updated by us. For you, that means it's plug & play. 
 
 </div></div>
 
@@ -74,6 +80,6 @@ Except for the embedded device that controls your display, all of our services a
 
 ## Secure
 
-All data is transferred over secure VPNs and using SSL websites. No eavesdropping or man-in-the-middle attacks on your data. 
+All data is transferred over secure VPNs and using SSL websites. No eavesdropping or man-in-the-middle attacks on your data. On top of that, all our code is open-source. So we encourage you to ask your fellow developers and IT-department to do a thorough code review. You'll see: no backdoors, clean and readable code, and built on proven (yet new) technology. 
 
 </div></div>

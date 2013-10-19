@@ -1,8 +1,6 @@
 Customers
 =========
 
-## Our **customers** are amazing:
-
 <center>
 ### "A **very positive impression**... Provides useful information and adds a dynamic image."
 
@@ -13,9 +11,11 @@ Customers
 &mdash; Christophe Jacobs, Codic
 
 ### "Not being local, the display **helped us** to understand the accessibility."
+
 &mdash; Prakash Selva, Tech Mahindra
  
-"It really does what we need: **convince potential tenants**"
+### "It really does what we need: **convince potential tenants**"
+
 &mdash; Alexander Baeten, Tribeca Capital Partners
 
 ***
