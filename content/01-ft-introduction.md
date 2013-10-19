@@ -6,11 +6,11 @@ FlatTurtle
 
 FlatTurtle is a real-time digital signage provider. We visualise useful information in and around a certain location on huge displays.
 
-<div class="row"><div class="col-md-2">
+<div class="row"><div class="col-md-1">
 
 ![real-time](https://img.flatturtle.com/flatturtle.com/assets/icon_realtime.png)
 
-</div><div class="col-md-10">
+</div><div class="col-md-11">
 
 ## Real-time
 
@@ -42,11 +42,11 @@ Our team is involved: all of us have a history in (open) data, web, and embedded
 
 </div></div>
 
-<div class="row"><div class="col-md-2">
+<div class="row"><div class="col-md-1">
 
 ![open-data](https://img.flatturtle.com/flatturtle.com/assets/icon_opendata.png)
 
-</div><div class="col-md-10">
+</div><div class="col-md-11">
 
 ## Open data
 
@@ -54,11 +54,11 @@ The iRail and OKFN community-driven DataTank links any dataset and generates fre
 
 </div></div>
 
-<div class="row"><div class="col-md-2">
+<div class="row"><div class="col-md-1">
 
 ![cloud](https://img.flatturtle.com/flatturtle.com/assets/icon_cloud.png)
 
-</div><div class="col-md-10">
+</div><div class="col-md-11">
 
 ## Cloud
 
@@ -66,11 +66,11 @@ Except for the embedded device that controls your display, all of our services a
 
 </div></div>
 
-<div class="row"><div class="col-md-2">
+<div class="row"><div class="col-md-1">
 
 ![secure](https://img.flatturtle.com/flatturtle.com/assets/icon_secure.png)
 
-</div><div class="col-md-10">
+</div><div class="col-md-11">
 
 ## Secure
 
