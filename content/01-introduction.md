@@ -9,12 +9,31 @@ We visualise useful information in and around a certain location on huge display
 
 ## This is why you should choose for us: 
 
-![real-time](https://img.flatturtle.com/flatturtle.com/assets/icon_realtime.png)
-![personalise](https://img.flatturtle.com/flatturtle.com/assets/icon_personalise.png)
-![smart](https://img.flatturtle.com/flatturtle.com/assets/icon_smart.png)
-![open-data](https://img.flatturtle.com/flatturtle.com/assets/icon_opendata.png)
-![cloud](https://img.flatturtle.com/flatturtle.com/assets/icon_cloud.png)
-![secure](https://img.flatturtle.com/flatturtle.com/assets/icon_secure.png)
+<div class="row"><div class="col-md-2">
+
+<center>![real-time](https://img.flatturtle.com/flatturtle.com/assets/icon_realtime.png)</center>
+
+</div><div class="col-md-2">
+
+<center>![personalise](https://img.flatturtle.com/flatturtle.com/assets/icon_personalise.png)</center>
+
+</div><div class="col-md-2">
+
+<center>![smart](https://img.flatturtle.com/flatturtle.com/assets/icon_smart.png)</center>
+
+</div><div class="col-md-2">
+
+<center>![open-data](https://img.flatturtle.com/flatturtle.com/assets/icon_opendata.png)</center>
+
+</div><div class="col-md-2">
+
+<center>![cloud](https://img.flatturtle.com/flatturtle.com/assets/icon_cloud.png)</center>
+
+</div><div class="col-md-2">
+
+<center>![secure](https://img.flatturtle.com/flatturtle.com/assets/icon_secure.png)</center>
+
+</div></div>
 
 <div class="row"><div class="col-md-1">
 
