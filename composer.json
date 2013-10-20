@@ -5,11 +5,14 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.0.*",
-		"erusev/parsedown": "dev-master",
-		"guzzle/http": "3.7.*@dev",
-		"juy/profiler": "dev-master",
-		"jenssegers/model": "dev-master"
+		"flatturtle/sitecore": "dev-master"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/FlatTurtle/SitesCore.git"
+		}
+	],
 	"autoload": {
 		"classmap": [
 			"app/models"
@@ -17,13 +20,15 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"php artisan optimize"
+			"php artisan optimize",
+			"php artisan flatturtle:install"
 		],
 		"pre-update-cmd": [
 			"php artisan clear-compiled"
 		],
 		"post-update-cmd": [
-			"php artisan optimize"
+			"php artisan optimize",
+			"php artisan flatturtle:update"
 		],
 		"post-create-project-cmd": [
 			"php artisan key:generate"
