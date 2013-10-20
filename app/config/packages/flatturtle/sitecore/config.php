@@ -35,7 +35,7 @@ return array(
 	|
 	*/
 
-	'mailchimp' => http://flatturtle.us6.list-manage1.com/subscribe/post&u=d82ed07d6d647a768b87d3e8d&id=8de65c1467,
+	'mailchimp' => 'http://flatturtle.us6.list-manage1.com/subscribe/post&u=d82ed07d6d647a768b87d3e8d&id=8de65c1467',
 
 
 	/*
