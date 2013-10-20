@@ -30,7 +30,7 @@ Also, double check if the configuration file was modified and change your local 
 Configuration
 -------------
 
-After installing the **SiteCore** with the artisan command there will be a configuration file located in `app/config/packages/flatturtle/sitecore`.
+After installing the **SiteCore** there will be a configuration file located in `app/config/packages/flatturtle/sitecore`.
 
 Templating
 ----------
