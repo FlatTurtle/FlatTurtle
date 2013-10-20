@@ -209,6 +209,10 @@ nav {
 	padding: 20px 0;
 	text-align: center;
 
+	.container > a {
+		text-decoration: none;
+	}
+
 	i {
 		display: inline-block;
 		width: 50px;
@@ -219,7 +223,6 @@ nav {
 		border: 2px solid #FFF;
 		border-radius: 25px;
 		line-height: 50px;
-		text-decoration: none;
 	}
 
 }
