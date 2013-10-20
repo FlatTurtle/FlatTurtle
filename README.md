@@ -39,9 +39,7 @@ The **SiteCore** contains a default template file. If you wish to modify this te
 
 	php artisan view:publish flatturtle/sitecore
 
-This will copy the template file to `app/views/flatturtle/sitecore` so that you can modify it. Then change your configuration file to use that template file instead of the included one:
-
-	'template' => 'flatturtle.sitecore.template',
+This will copy the template file to `app/views/flatturtle/sitecore` so that you can modify it.
 
 Carousel
 --------
@@ -57,3 +55,22 @@ You can order your site's content by adding numbers in front of the file name:
 
 	01-first_block.md
 	02-second_block.html
+
+Commands
+--------
+
+These are the included artisan commands:
+
+### flatturtle:install
+
+Used when installing the **SiteCore** for the first time. This will:
+
+ - Publish the configuration file to `app/config/packages/flatturtle/sitecore/config.php`
+ - Publish assets to `public/packages/flatturtle/sitecore`
+ - Generate a Laravel application key
+ - Clear application cache
+
+### flatturtle:update
+
+ - Publish assets to `public/packages/flatturtle/sitecore`
+ - Clear application cache
