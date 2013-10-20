@@ -4,11 +4,17 @@ FlatTurtle
 # FlatTurtle visualises real-time info
 ## ... in and around your location
 
-<<<<<<< HEAD
 FlatTurtle is a real-time digital signage provider. 
 We visualise useful information in and around a certain location on huge displays.
 
 ## This is why you should choose for us: 
+
+![real-time](https://img.flatturtle.com/flatturtle.com/assets/icon_realtime.png)
+![personalise](https://img.flatturtle.com/flatturtle.com/assets/icon_personalise.png)
+![smart](https://img.flatturtle.com/flatturtle.com/assets/icon_smart.png)
+![open-data](https://img.flatturtle.com/flatturtle.com/assets/icon_opendata.png)
+![cloud](https://img.flatturtle.com/flatturtle.com/assets/icon_cloud.png)
+![secure](https://img.flatturtle.com/flatturtle.com/assets/icon_secure.png)
 
 <div class="row"><div class="col-md-1">
 
@@ -84,6 +90,3 @@ Oh, and that one device on premises, is entirely managed and updated by us. For 
 All data is transferred over secure VPNs and using SSL websites. No eavesdropping or man-in-the-middle attacks on your data. On top of that, all our code is open-source. So we encourage you to ask your fellow developers and IT-department to do a thorough code review. You'll see: no backdoors, clean and readable code, and built on proven (yet new) technology. 
 
 </div></div>
-=======
-Nunc accumsan scelerisque pellentesque. Proin sed placerat turpis. Nam quis odio placerat risus molestie varius sit amet quis lorem. Morbi sed elit massa. Aliquam egestas elit quis ligula fringilla, ac placerat libero aliquam. Ut tempor odio suscipit justo hendrerit pellentesque. Fusce eu est ut magna gravida elementum. Cras aliquam risus id auctor viverra. Quisque id leo tellus. Suspendisse volutpat turpis non venenatis aliquam. Nulla at libero at sapien rhoncus egestas nec vitae est. Cras sapien nisl, vulputate a ullamcorper et, vestibulum et mi. Integer porta magna in laoreet volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per.
->>>>>>> 6e6244d8d6be6db9899b72b416b7bff551c14400
