@@ -35,7 +35,7 @@ return array(
 	|
 	*/
 
-	'mailchimp' => 'http://flatturtle.us6.list-manage1.com/subscribe/post&u=d82ed07d6d647a768b87d3e8d&id=8de65c1467',
+	'mailchimp' => 'http://flatturtle.us6.list-manage.com/subscribe/post?u=d82ed07d6d647a768b87d3e8d&id=8de65c1467',
 
 
 	/*
@@ -47,7 +47,7 @@ return array(
 	|
 	*/
 
-	'analytics' => null,
+	'analytics' => 'UA-31282630-1',
 
 
 	/*
@@ -65,7 +65,10 @@ return array(
 	*/
 
 	'social' => array(
-
+		'tumblr'	=>	'http://blog.flatturtle.com',
+		'github'	=>	'https://github.com/FlatTurtle',
+		'twitter'	=>	'https://twitter.com/FlatTurtle_',
+		'linkedin'	=>	'http://www.linkedin.com/company/2493266',
 	)
 
 );
