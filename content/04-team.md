@@ -8,7 +8,7 @@ Founding fathers
 
 ### YERI TIETE
 
-##### CAPTAIN & CO-FOUNDER
+##### CEO & CO-FOUNDER
 
 Yeri Tiete, system engineer and chairman of [iRail](http://hello.iRail.be) - the NPO supporting digital creativity concerning transport - left [Google](https://www.google.com/about/jobs/locations/saint-ghislain) to dedicate himself entirely to FlatTurtle. 
 With no mobile application available for public transport while Yeri was a student, he decided to build one himself and share it with others, for free, thereby causing great havoc (& fun) becoming subject of a discussion in the Flemish parliament.
@@ -17,7 +17,7 @@ With no mobile application available for public transport while Yeri was a stude
 
 ### PIETER COLPAERT
 
-##### CHIEF TECHNOLOGY PINGUIN & CO-FOUNDER
+##### CTO & CO-FOUNDER
 
 Pieter Colpaert, engineer, vice-chairman of iRail and chairman of the [Open Knowledge Foundation](http://okfn.be) Belgium is currently doing his PhD on Linked Open Data at the University of Ghent. He is a true open knowledge enthusiast, inspiring guest speaker at Open Government Data Camp, European Commission, TEDx, SuperMinds, Re:Publica, ... Some even call him a Guru. 
 
@@ -25,7 +25,7 @@ Pieter Colpaert, engineer, vice-chairman of iRail and chairman of the [Open Know
 
 ### CHRISTOPHE PETITJEAN
 
-##### CREATIVIST & CO-FOUNDER 
+##### CHIEF CREATIVITY & CO-FOUNDER 
 
 Christophe Petitjean, economist and Junior Achievement/INSEAD-product, has been grassrooting linked open data from the early days in which you could really "hear" the internet on your 56k dialup modem across the repurposed telephone infrastructure. He had to wait untill these exciting times to combine his passion and creativity for data with his [niche businnes](http://www.rentalvalue.be) in getting longterm vacant office properties leased in record time.
 

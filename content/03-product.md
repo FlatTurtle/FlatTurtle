@@ -6,16 +6,17 @@ Product
 Drag and drop any available Turtle to personalise and visualise different info. It's as simple as drag'n'drop. And if you need anything that's not available, we'got a team ready to code custom Turtles for you!
 
 # Mobility Turtle
-## CONGESTION MAPS, TRAINS, METRO, TRAMS, BUSSES, PLANES 
+## Getting you there 
 
-Ensuring a smooth travel experience for both owners and visitors, by providing local up-to-the-minute congestion roadmaps, local public transportation routes and real-time schedules.
+Ensure a smooth travel experience communicating local up-to-the-minute congestion road maps. Inform about walking distances to the nearest train-, bus- or metro stops with real-time schedules and delays, providing up-to-the-minute availability of public bicycles at the nearest bicycle stand, or delays at the nearest airport.
 
-Informing them about the walking distance to the nearest train-, bus- or metro stops and providing availability of the public bicycles at the nearest bicycle stand, gets them from one place to the next, saving both the time and exhaustive effort of tracking correct information down.
+# Weather Turtle
+## Keeping you dry
 
-And earn BREEAMS/LEED accreditation making better use of public transport.
+Ensure a smooth travel experience communicating local up-to-the-minute Congestion RoadMaps. Inform about walking distances to the nearest train-, bus- or metro stops with real-time schedules and delays, providing up-to-the-minute availability of public bicycles at the nearest bicycle stand, or delays at the nearest airport.
 
-# News
-## NEWS, SPORTS & ENTERTAINMENT
+# Meeting Turtle
+## Hosting you
 
 Communicate corporate news feeds, announcements, performance values & milestones, share prices, strengthening corporate culture and brand perception.
 
