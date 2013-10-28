@@ -27,6 +27,26 @@ return array(
 
 	/*
 	|--------------------------------------------------------------------------
+	| Content Directory
+	|--------------------------------------------------------------------------
+	*/
+
+	'directory' => 'content',
+
+
+	/*
+	|--------------------------------------------------------------------------
+	| FlatTurtle map
+	|--------------------------------------------------------------------------
+	|
+	| Enable or disable the FlatTurtle map at the bottom of the page.
+	|
+	*/
+
+	'map' => true,
+
+	/*
+	|--------------------------------------------------------------------------
 	| Mailchimp Form URL
 	|--------------------------------------------------------------------------
 	|
@@ -35,7 +55,7 @@ return array(
 	|
 	*/
 
-	'mailchimp' => 'http://flatturtle.us6.list-manage.com/subscribe/post?u=d82ed07d6d647a768b87d3e8d&id=8de65c1467',
+	'mailchimp' => null,
 
 
 	/*
@@ -47,7 +67,7 @@ return array(
 	|
 	*/
 
-	'analytics' => 'UA-31282630-1',
+	'analytics' => null,
 
 
 	/*
@@ -65,10 +85,7 @@ return array(
 	*/
 
 	'social' => array(
-		'tumblr'	=>	'http://blog.flatturtle.com',
-		'github'	=>	'https://github.com/FlatTurtle',
-		'twitter'	=>	'https://twitter.com/FlatTurtle_',
-		'linkedin'	=>	'http://www.linkedin.com/company/2493266',
+
 	)
 
 );

@@ -6,7 +6,7 @@ Customers
 
 &mdash; Christophe Mignot, IVG
 
-### "FlatTurtle visualises **useful information** well about a specific location, in real-time."
+### "FlatTurtle visualises **useful information** about a specific location, in real-time."
 
 &mdash; Christophe Jacobs, Codic
 
