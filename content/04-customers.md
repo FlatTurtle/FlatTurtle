@@ -2,6 +2,10 @@ Customers
 =========
 
 <center>
+### "FlatTurtle helps *stressing the accessibility* of our buildings: it provides everything to the candidate at *one glance*."
+
+&mdash; Gijsbert van Riemsdijk, UBS
+
 ### "A **very positive impression**... Provides useful information and adds a dynamic image."
 
 &mdash; Christophe Mignot, IVG
