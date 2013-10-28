@@ -85,7 +85,9 @@ return array(
 	*/
 
 	'social' => array(
-
+		'heart'		=>	'http://blog.flatturtle.com/',
+		'twitter'	=>	'https://twitter.com/FlatTurtle_',
+		'github'	=>	'https://github.com/FlatTurtle',
+		'linkedin'	=>	'http://www.linkedin.com/company/2493266',
 	)
-
 );
