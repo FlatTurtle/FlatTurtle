@@ -6,7 +6,7 @@
 
 ### or [tweet and follow us on twitter](http://twitter.com/FlatTurtle_)
 <div property="address" resource="#Address" typeof="PostalAddress">
-### You can also send us a letter at <strong><span property="streetAddress">Avenue du Port 86c - 18 Havenlaan</span>, <span property="postalCode">1000</span> <span property="addressLocality">Brussels</span> in <span property="addressCountry">Belgium</span></strong> if you need to send us big packages.
+### You can also send us a letter at <strong><span property="streetAddress">Avenue du Port 86c - 18 Havenlaan</span>, <span property="postalCode">1000</span> <span property="addressLocality">Brussels</span> in <span property="addressCountry">Belgium</span></strong> for when you need to send us big packages.
 </div>
 
 </div>
