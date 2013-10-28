@@ -3,13 +3,13 @@
 <div class="row" align="center" width="100%">
 <div class="col-md-4">
 
-[Log in](http://my.flatturtle.com)
+[Manage](https://my.flatturtle.com)
 ----------------------------------
 Log in to take full control over your display
 </div>
 <div class="col-md-4">
 
-[Latest updates](http://blog.flatturtle.com)
+[Blog](http://blog.flatturtle.com)
 -------------------------------------------
 Read the latest updates about us, stay informed about product updates and get to know our latest installations on our blog.
 

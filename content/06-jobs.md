@@ -1,7 +1,6 @@
 # Jobs
 
-Want to join our developer staff?
----------------------------------
+## Want to join our developer staff?
 
 <div class="row"><div class="col-md-4">
 
@@ -41,6 +40,4 @@ Java Developer, Scrum master. Main organiser of [RHOK](http://www.rhok.be/).
 
 </div></div>
 
-
-Get [in touch](#contact)
-------------------------
+## Get [in touch](#contact)

@@ -1,5 +1,5 @@
-The Executive Team
-=======================
+Executive Team
+==============
 
 Founders
 --------
@@ -32,7 +32,7 @@ Christophe Petitjean, economist and Junior Achievement/INSEAD-product, had to wa
 </div></div>
 
 Sales Executives
------------------
+----------------
 
 <div class="row"><div class="col-md-6">![Edouard Moreels](https://img.flatturtle.com/flatturtle.com/team/edouard.jpg)
 
