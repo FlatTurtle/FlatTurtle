@@ -6,9 +6,9 @@ Product
 </div>
 <div class="col-md-3">
 
-### Provide your visitors with real-time updates from outside ###
+### Provide your visitors with real-time updates from outside 
 
-Public data streams such a Busses, Trains or the Traffic situation near your location appears magically on the screen. Also weather or newsstreams can be selected.
+Public data streams such a buses, trains or the traffic situation near your location appears magically on the screen. Also weather or newsstreams can be selected.
 
 </div>
 <div class="col-md-3">
@@ -16,8 +16,10 @@ Public data streams such a Busses, Trains or the Traffic situation near your loc
 </div>
 <div class="col-md-3">
 
-### Digital signage respecting your style ###
+### Digital signage respecting your style 
+
 Technology doesn't mean breaking your style. Our team will integrate your hardware with your interior design.
+
 </div>
 </div>
 <div class="row">
@@ -29,7 +31,9 @@ Technology doesn't mean breaking your style. Our team will integrate your hardwa
 </div>
 <div class="col-md-3">
 
-### Manage your own datastreams ###
+### Manage your own datastreams 
+
 Use the [control panel](#links) to add your own information on the screen.
+
 </div>
 </div>
