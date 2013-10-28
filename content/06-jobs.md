@@ -12,13 +12,13 @@ Data developer - makes sure the latest datastreams are available for your locati
 
 ### JENS SEGERS
 
-Developer, Engineer & Hardware Geek. Our main partner for WiFi (See our partner product [auki](http://auki.be)). 
+Developer, engineer & hardware geek. Our main partner for WiFi (See our partner product [Auki](http://auki.be)). 
 
 </div><div class="col-md-4">
 
 ### MICHIEL VANCOILLIE
 
-Web & Software Developer and Engineer. He has his own company called [renthub](http://renthub.be) to innovate local governments.
+Web & software developer and engineer. He has his own company called [Renthub](http://renthub.be) to innovate local governments.
 
 </div></div><div class="row"><div class="col-md-4">
 
@@ -40,4 +40,4 @@ Java Developer, Scrum master. Main organiser of [RHOK](http://www.rhok.be/).
 
 </div></div>
 
-## Get [in touch](#contact)
+## Get [in touch](#contact).
