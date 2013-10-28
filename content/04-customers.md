@@ -2,7 +2,7 @@ Customers
 =========
 
 <center>
-### "FlatTurtle helps *stressing the accessibility* of our buildings: it provides everything to the candidate at *one glance*."
+### "FlatTurtle helps **stressing the accessibility** of our buildings: it provides everything to the candidate at **one glance**."
 
 &mdash; Gijsbert van Riemsdijk, UBS
 
