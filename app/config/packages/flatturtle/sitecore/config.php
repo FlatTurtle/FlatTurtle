@@ -68,7 +68,7 @@ return array(
 	|
 	*/
 
-	'analytics' => null,
+	'analytics' => 'UA-31282630-1',
 
 
 	/*
