@@ -18,7 +18,7 @@ Customers
 
 &mdash; Prakash Selva, Tech Mahindra
  
-### "It really does what we need: **convince potential tenants**"
+### "It really does what we need: **convince potential tenants**."
 
 &mdash; Alexander Baeten, Tribeca Capital Partners
 
