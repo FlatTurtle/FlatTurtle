@@ -1,7 +1,6 @@
 /bootstrap/compiled.php
 /vendor
 composer.phar
-composer.lock
 .DS_Store
 /public/css/.sass-cache
 /public/packages
