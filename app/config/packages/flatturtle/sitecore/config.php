@@ -68,7 +68,7 @@ return array(
 	|
 	*/
 
-	'analytics' => 'UA-31282630-1',
+	'analytics' => null,
 
 
 	/*
@@ -86,9 +86,6 @@ return array(
 	*/
 
 	'social' => array(
-		'heart'		=>	'http://blog.flatturtle.com/',
-		'twitter'	=>	'https://twitter.com/FlatTurtle_',
-		'github'	=>	'https://github.com/FlatTurtle',
-		'linkedin'	=>	'https://www.linkedin.com/company/flatturtle',
 	)
+
 );
