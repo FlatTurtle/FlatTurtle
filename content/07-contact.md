@@ -3,7 +3,7 @@
 <div vocab="http://schema.org/" resource="http://flatturtle.com#_" typeof="LocalBusiness">
 Get in touch by dialing <span property="telephone" content="+3226691001"><a href="tel:+3226691001">+32 (0)2 669 1001</a></span> or sending an <span property="email" content="info@flatturtle.com"><a href="mailto:info@flatturtle.com">e-mail</a></span>.
 <div property="address" resource="#Address" typeof="PostalAddress">
-You can also send us letter to <strong><span property="streetAddress">Avenue du Port 86c - 18</span>, <span property="postalCode">1000</span> <span property="addressLocality">Brussels</span> in <span property="addressCountry">Belgium</span></strong>, although we really prefer e-mail. <br />
+You can also send us a letter towards <strong><span property="streetAddress">Avenue du Port 86c - 18</span>, <span property="postalCode">1000</span> <span property="addressLocality">Brussels</span> in <span property="addressCountry">Belgium</span></strong>, although we really prefer e-mail. <br />
 Our Belgian VAT id is BE0843.961.762.
 </div>
 </div>
