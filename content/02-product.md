@@ -35,7 +35,7 @@ Use the [control panel](#links) to add your own information on the screen.
 </div>
 
 <div class="col-md-3">
-<img width="100%" src="https://img.flatturtle.com/flatturtle.com/assets/FlatTurtle_frame.png"></img>
+<img width="100%" src="https://img.flatturtle.com/flatturtle.com/assets/FlatTurtle_frame.jpg"></img>
 </div>
 <div class="col-md-3">
 
