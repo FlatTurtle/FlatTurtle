@@ -21,7 +21,7 @@
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan optimize",
-			"php artisan flatturtle:install"
+			"php artisan flatturtle:update"
 		],
 		"pre-update-cmd": [
 			"php artisan clear-compiled"

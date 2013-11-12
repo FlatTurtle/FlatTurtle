@@ -14,10 +14,10 @@ Clone this repository and install the Laravel framework and other dependencies:
 
 Make sure the folders in `app/storage` are writable.
 
-The `composer install` command will automatically trigger the `php artisan flatturtle:install`. This command publishes the **SiteCore** configuration files and assets to your local installation.
+The `composer install` command will automatically trigger the `php artisan flatturtle:update` which will execute `php artisan flatturtle:install` for new clones. This command publishes the **SiteCore** configuration files and assets to your local installation.
 
-Updating
---------
+Updating Sitecore
+-----------------
 
 To update the **SiteCore** to the latest version run:
 
@@ -26,6 +26,10 @@ To update the **SiteCore** to the latest version run:
 This will pull the latest changes from the git repository. It will automatically trigger the `php artisan flatturtle:update` command that publishes assets to your local installation.
 
 Also, double check if the configuration file was modified and change your local version accordingly. You can overwrite your local configuration file with the latest version by using the `php artisan flatturtle:install` command.
+
+### Deploy best practices
+
+The `composer.lock` file contains the exact version numbers of the dependancies used during the last `composer update`. You should **NEVER** execute `composer update` on a production environment. The correct workflow is to execute `composer update` on your workstation, check for any errors and then commit the `composer.lock` file to your git repository. Once the production environment is updated with the latest lock-file, you can execute `composer install`, which will install the dependancies based on the lock-file.
 
 Configuration
 -------------
