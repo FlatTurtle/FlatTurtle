@@ -5,18 +5,31 @@
 /* ============ Colors ============ */
 
 $body-color: #FFF;
-$zebra-color: #f1f4f5;
+$subtitle-color: #999999;
+$line-color: #DDD;
+
+$blur-size: 50px;
+$nav-height: 60px;
+$carousel-height: 600px;
 
 /* ============ General ============ */
 
 body {
+	font-family: "Soho Gothic W01 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: $body-color;
 	color: #575757;
+	margin-top: $nav-height;
 }
 
 .anchor {
 	position: relative;
 	top: -50px;
+}
+
+/* ============ Utilities ============ */
+
+.center {
+	text-align: center;
 }
 
 /* ============ Typography ============ */
@@ -34,22 +47,59 @@ li {
 }
 
 h1, h2, h3 {
-	font-family: "Helvetica Neue", "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: inherit;
 	font-weight: 300;
 }
 
 h1 {
+	color: #000;
 	font-size: 45px;
+}
+
+h1.big {
+	font-size: 60px;
 }
 
 /* ============ Top image ============ */
 
 #jumbo {
-	height: 400px;
+
+	height: $carousel-height;
 	width: 100%;
 
 	.carousel-inner {
-		height: 400px;
+		height: $carousel-height;
+	}
+
+	#top-blur, #bottom-blur {
+		position: absolute;
+		width: 100%;
+		height: $blur-size;
+		z-index: 1000;
+	}
+
+	#top-blur {
+		top: 0;
+
+		background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+	}
+
+	#bottom-blur {
+		bottom: 0;
+
+		background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 	}
 
 	.item {
@@ -69,6 +119,10 @@ h1 {
 		background-size: cover;
 	}
 
+	.carousel-indicators {
+		bottom: $blur-size + 10px;
+	}
+
 	.carousel-control {
 		background-image: none;
 		opacity: 1.0;
@@ -77,6 +131,10 @@ h1 {
 			font-size: 60px;
 			margin-top: -30px;
 		}
+
+		img {
+			margin-top: ($carousel-height / 2) - 65;
+		}
 	}
 }
 
@@ -84,10 +142,37 @@ h1 {
 
 nav {
 
-	text-align: center;
-	padding: 20px 0;
+	z-index: 2000;
+	width: 100%;
+	//height: $nav-height;
+	line-height: $nav-height - 4px;
+	position: fixed;
+	top: 0;
+
+	background-color: $body-color;
+
+	.btn {
+		border-radius: 20px;
+
+		&:hover {
+			color: #FFF;
+		}
+	}
+
+	.container {
+		border-bottom: 1px solid $line-color;
+	}
+
+	#brand {
+		display: inline-block;
+		font-size: 150%;
+		font-weight: bold;
+		text-decoration: none;
+		float: left;
+	}
 
 	ul {
+		float: right;
 		list-style: none;
 		margin: 0;
 		padding: 0;
@@ -96,11 +181,10 @@ nav {
 	li {
 		display: inline-block;
 		padding: 0 15px;
-		font-size: 18px;
 	}
 
 	a, a:hover {
-		color: #FFF;
+		color: #000;
 	}
 
 }
@@ -120,6 +204,7 @@ nav {
 }
 
 .block {
+
 	padding-top: 40px;
 	padding-bottom: 40px;
 
@@ -128,8 +213,10 @@ nav {
 		margin-top: 0;
 	}
 
-	h1:first-child {
-		text-align: center;
+	h1 + h2 {
+		color: $subtitle-color;
+		margin-bottom: 30px;
+		margin-top: -10px;
 	}
 
 	p, ul {
@@ -139,24 +226,62 @@ nav {
 	p:last-child, ul:last-child {
 		margin-bottom: 0;
 	}
+
+}
+
+.anchor {
+	display: block;
+	position: relative;
+	top: -100px;
+	visibility: hidden;
 }
 
 #content {
 
-	.block:nth-child(even) {
-		background-color: $zebra-color;
+	$color: #fafafa;
+	$location: 75px;
+
+	.block {
+
+		border-top: 1px solid #f7f7f7;
+		background: $color; /* Old browsers */
+		background: -moz-linear-gradient(top,  $color 0%, #ffffff $location, #ffffff 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e1e0), color-stop($location,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  $color 0%,#ffffff $location,#ffffff 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 
 		hr {
-			border-top-color: darken($zebra-color, 10);
+			border-top-color: darken(#CCC, 10);
 			width: 75%;
 			margin-left: auto;
 			margin-right: auto;
 		}
 	}
 
+	.block:first-child {
+		background: none;
+		filter: none;
+		border-top: 0;
+	}
+
 	img {
 		max-width: 100%;
 		border-radius: 5px;
+	}
+
+}
+
+/* ============ Media queries ============ */
+
+@media screen and (max-width: 992px) {
+
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 
 }
@@ -202,7 +327,7 @@ nav {
 
 }
 
-/* ============ Newsletter ============ */
+/* ============ Map ============ */
 
 #map {
 

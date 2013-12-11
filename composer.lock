@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "80f91ef5c16a186ef673362bb4451675",
+    "hash": "4076032f6369c08a59830dfa5ffff5ca",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -457,7 +457,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -534,12 +534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "f43f54b877e4ede033a4c5d768735f6c998194ac"
+                "reference": "2e314ad4745a199830d0a4951820853b43db728f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/f43f54b877e4ede033a4c5d768735f6c998194ac",
-                "reference": "f43f54b877e4ede033a4c5d768735f6c998194ac",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/2e314ad4745a199830d0a4951820853b43db728f",
+                "reference": "2e314ad4745a199830d0a4951820853b43db728f",
                 "shasum": ""
             },
             "type": "library",
@@ -624,24 +624,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "5571988c918ae3cc1c7d8142b42878289d5cf822"
+                "reference": "aea66017639d1e8ffe1e56bcb1d1c1e6ff8c73bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/5571988c918ae3cc1c7d8142b42878289d5cf822",
-                "reference": "5571988c918ae3cc1c7d8142b42878289d5cf822",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/aea66017639d1e8ffe1e56bcb1d1c1e6ff8c73bd",
+                "reference": "aea66017639d1e8ffe1e56bcb1d1c1e6ff8c73bd",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown": "dev-master#f43f54b",
                 "guzzle/http": "3.7.*@dev",
-                "jenssegers/model": "dev-master"
+                "jenssegers/model": "dev-master",
+                "kzykhys/ciconia": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "classmap": [
                     "src/models",
-                    "src/commands"
+                    "src/commands",
+                    "src/libraries"
                 ],
                 "psr-0": {
                     "Flatturtle\\Sitecore": "src/"
@@ -658,7 +659,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2013-11-02 23:54:52"
+            "time": "2013-12-11 09:56:00"
         },
         {
             "name": "guzzle/common",
@@ -986,6 +987,61 @@
                 "tokenizer"
             ],
             "time": "2013-10-09 04:20:00"
+        },
+        {
+            "name": "kzykhys/ciconia",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kzykhys/Ciconia.git",
+                "reference": "615dddb5d9387e1f9478830cefbd374eeee226fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kzykhys/Ciconia/zipball/615dddb5d9387e1f9478830cefbd374eeee226fc",
+                "reference": "615dddb5d9387e1f9478830cefbd374eeee226fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4.0",
+                "symfony/console": "~2.3",
+                "symfony/options-resolver": "~2.3"
+            },
+            "require-dev": {
+                "symfony/finder": "~2.3",
+                "symfony/stopwatch": "~2.3"
+            },
+            "bin": [
+                "bin/ciconia"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kazuyuki Hayashi",
+                    "email": "hayashi@valnur.net"
+                }
+            ],
+            "description": "The Markdown parser for PHP5.4",
+            "keywords": [
+                "cli",
+                "markdown",
+                "parser"
+            ],
+            "time": "2013-12-11 11:11:48"
         },
         {
             "name": "laravel/framework",
@@ -1972,6 +2028,58 @@
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
             "time": "2013-10-30 08:30:20"
+        },
+        {
+            "name": "symfony/options-resolver",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/OptionsResolver",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/OptionsResolver.git",
+                "reference": "6f6554d4fd3cb0f39300473829b10390ae83e970"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/OptionsResolver/zipball/6f6554d4fd3cb0f39300473829b10390ae83e970",
+                "reference": "6f6554d4fd3cb0f39300473829b10390ae83e970",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\OptionsResolver\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony OptionsResolver Component",
+            "homepage": "http://symfony.com",
+            "keywords": [
+                "config",
+                "configuration",
+                "options"
+            ],
+            "time": "2013-11-24 20:17:07"
         },
         {
             "name": "symfony/process",
