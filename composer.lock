@@ -624,18 +624,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "aea66017639d1e8ffe1e56bcb1d1c1e6ff8c73bd"
+                "reference": "6f2d3d5b90aacd322db35629208ef03746b96151"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/aea66017639d1e8ffe1e56bcb1d1c1e6ff8c73bd",
-                "reference": "aea66017639d1e8ffe1e56bcb1d1c1e6ff8c73bd",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/6f2d3d5b90aacd322db35629208ef03746b96151",
+                "reference": "6f2d3d5b90aacd322db35629208ef03746b96151",
                 "shasum": ""
             },
             "require": {
+                "erusev/parsedown": "dev-master",
                 "guzzle/http": "3.7.*@dev",
-                "jenssegers/model": "dev-master",
-                "kzykhys/ciconia": "dev-master"
+                "jenssegers/model": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -659,7 +659,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2013-12-11 09:56:00"
+            "time": "2013-12-16 15:57:41"
         },
         {
             "name": "guzzle/common",

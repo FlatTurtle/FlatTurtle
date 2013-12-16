@@ -1,10 +1,10 @@
 @import 'bootstrap';
 @import 'font-awesome';
-@import 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700';
 
 /* ============ Colors ============ */
 
 $body-color: #FFF;
+$font-color: #575757;
 $subtitle-color: #999999;
 $line-color: #DDD;
 
@@ -17,7 +17,7 @@ $carousel-height: 600px;
 body {
 	font-family: "Soho Gothic W01 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: $body-color;
-	color: #575757;
+	color: $font-color;
 	margin-top: $nav-height;
 }
 
@@ -290,7 +290,7 @@ nav {
 
 #newsletter {
 
-	p {
+	h1, p {
 		text-align: center;
 	}
 
@@ -359,3 +359,251 @@ nav {
 	}
 
 }
+
+/* ============ Reservations ============ */
+
+#reservations {
+
+	h1, h2, #things {
+		text-align: center;
+	}
+
+	.done {
+		opacity: 0.5;
+		transition: opacity .25s ease-in-out;
+		-moz-transition: opacity .25s ease-in-out;
+		-webkit-transition: opacity .25s ease-in-out;
+	}
+
+	#things {
+
+		.label {
+			cursor: pointer;
+			margin: 0 3px;
+		}
+	}
+
+	#datepicker, #timepicker, #details {
+
+		margin-top: 60px;
+		display: none;
+
+		h2 {
+			padding-bottom: 20px;
+		}
+
+	}
+
+	#datepicker {
+		text-align: center;
+
+		input {
+			width: 130px;
+			text-align: center;
+			background-color: $subtitle-color;
+			font-size: inherit;
+			padding: 10px 0;
+			color: #FFF;
+			border-radius: .25em;
+			border: 0;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		::-webkit-input-placeholder {
+		    color: #ccc;
+		}
+		:-moz-placeholder {
+		    color: #ccc;
+		}
+		::-moz-placeholder {
+		    color: #ccc;
+		}
+		:-ms-input-placeholder {
+		    color: #ccc;
+		}
+	}
+
+	#timepicker {
+		text-align: center;
+
+		#bar {
+			background-color: $line-color;
+			height: 20px;
+			width: 100%;
+			margin: auto;
+			position: relative;
+
+			span {
+				background-color: #333;
+				height: 100%;
+				display: block;
+				position: absolute;
+				opacity: 0.75;
+			}
+
+			.selection {
+				z-index: 100;
+				opacity: 0.75;
+				transition: opacity .25s ease-in-out;
+				-moz-transition: opacity .25s ease-in-out;
+				-webkit-transition: opacity .25s ease-in-out;
+			}
+
+			.disabled {
+				$light-color: $body-color;
+				$dark-color: $line-color;
+
+				background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, $dark-color), color-stop(0.25, $dark-color), color-stop(0.25, $light-color), color-stop(0.5, $light-color), color-stop(0.5, $dark-color), color-stop(0.75, $dark-color), color-stop(0.75, $light-color));
+				background-image: -webkit-linear-gradient(left bottom, $dark-color 0%, $dark-color 25%, $light-color 25%, $light-color 50%, $dark-color 50%, $dark-color 75%, $light-color 75%);
+				background-image: -moz-linear-gradient(left bottom, $dark-color 0%, $dark-color 25%, $light-color 25%, $light-color 50%, $dark-color 50%, $dark-color 75%, $light-color 75%);
+				background-image: -ms-linear-gradient(left bottom, $dark-color 0%, $dark-color 25%, $light-color 25%, $light-color 50%, $dark-color 50%, $dark-color 75%, $light-color 75%);
+				background-image: -o-linear-gradient(left bottom, $dark-color 0%, $dark-color 25%, $light-color 25%, $light-color 50%, $dark-color 50%, $dark-color 75%, $light-color 75%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$dark-colorccc', endColorstr='$light-colorbbb',GradientType=0 );
+				background-image: linear-gradient(left bottom, $dark-color 0%, $dark-color 25%, $light-color 25%, $light-color 50%, $dark-color 50%, $dark-color 75%, $light-color 75%);
+				background-size: 25px 25px;
+				opacity: 1;
+			}
+		}
+
+		#labels {
+
+			width: 100%;
+			margin: auto;
+			margin-top: 5px;
+			position: relative;
+
+			span {
+				display: block;
+				position: absolute;
+				font-size: 10px;
+				margin-left: -15px;
+			}
+		}
+
+		#selection {
+			margin-top: 50px;
+
+			input {
+				border: 1px solid $line-color;
+				border-radius: 5px;
+				padding: 5px 10px;
+				margin-left: 5px;
+				margin-right: 5px;
+				width: 75px;
+				text-align: center;
+			}
+		}
+	}
+
+	#details {
+		text-align: center;
+
+		textarea, input {
+			border: 1px solid $line-color;
+			border-radius: 5px;
+			padding: 5px 10px;
+			margin-bottom: 10px;
+		}
+
+		input {
+			margin-left: 5px;
+		}
+
+		textarea {
+			width: 400px;
+			height: 75px;
+		}
+
+		button {
+			margin-top: 20px;
+			font-size: 150%;
+			padding: 5px 20px;
+
+			&:hover {
+				color: #CCC;
+			}
+		}
+
+		#message {
+
+			margin-top: 30px;
+
+			&.success {
+				color: green;
+			}
+
+			&.error {
+				color: red;
+			}
+
+		}
+
+	}
+
+	.label {
+		text-align: center;
+		background-color: $subtitle-color;
+		font-size: inherit;
+		padding: 10px 20px;
+		color: #FFF;
+	}
+
+}
+
+/* ============ Datepicker ============ */
+
+#ui-datepicker-div {
+	background-color: #FFF;
+	border: 1px solid $line-color;
+	border-radius: 5px;
+	padding: 10px 15px;
+	opacity: 1;
+	z-index: 1000 !important;
+
+	.ui-datepicker-title {
+		text-align: center;
+		font-family: "Soho Gothic W01 Bold", sans-serif;
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+
+	.ui-icon-circle-triangle-e {
+		float: right;
+		content: '\279C';
+	}
+
+	.ui-icon {
+		cursor: pointer;
+		color: $subtitle-color;
+	}
+
+	td a {
+		display: block;
+		padding: 3px;
+		text-align: center;
+		color: $subtitle-color;
+		font-size: 90%;
+		text-decoration: none;
+		border: 1px solid transparent;
+
+		&:hover {
+			border: 1px solid $line-color;
+			border-radius: 5px;
+			color: $font-color;
+		}
+
+		&.ui-state-highlight {
+			color: $font-color;
+			font-family: "Soho Gothic W01 Bold", sans-serif;
+		}
+
+		&.ui-state-active {
+			color: $font-color;
+			font-family: "Soho Gothic W01 Bold", sans-serif;
+			border: 1px solid $line-color;
+			border-radius: 5px;
+		}
+	}
+}
+
