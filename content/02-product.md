@@ -1,12 +1,11 @@
-Product
-=======
+<h1>Product</h1>
 <div class="row">
 <div class="col-md-3">
 <img width="100%" src="https://img.flatturtle.com/flatturtle.com/assets/realtime.jpg"></img>
 </div>
 <div class="col-md-3">
 
-### Provide your visitors with real-time updates from outside 
+<h2>Provide your visitors with real-time updates from outside</h2>
 
 We use digital signage to keep the world informed. Our FlatTurtle displays are able to present **accurate, fully up-to-date information** for any particular location. 
 
@@ -16,7 +15,7 @@ We use digital signage to keep the world informed. Our FlatTurtle displays are a
 </div>
 <div class="col-md-3">
 
-### Digital signage respecting your style 
+<h2>Digital signage respecting your style</h2>
 Technology doesn't mean breaking your style. Our team will **integrate** the hardware with your interior design.
 
 </div>
@@ -28,7 +27,7 @@ Technology doesn't mean breaking your style. Our team will **integrate** the har
 </div>
 <div class="col-md-3">
 
-### Manage your own datastreams
+<h2>Manage your own datastreams</h2>
 
 Public data streams such a buses, trains or the traffic situation near your location appears magically on the screen. Also weather or newsstreams can be selected. Use the [control panel](#links) to **add your own information** on the screen.
 
@@ -39,7 +38,7 @@ Public data streams such a buses, trains or the traffic situation near your loca
 </div>
 <div class="col-md-3">
 
-### Start with a FlatTurtle today
+<h2>Start with a FlatTurtle today</h2>
 
 And no matter how many FlatTurtle screens you have, you can control them separately. This means certain information on one screen, and different information on another. **It’s your choice**. We are ready, [are you](#contact)?
 

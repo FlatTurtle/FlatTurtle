@@ -520,7 +520,7 @@ nav {
 			font-size: 150%;
 			padding: 5px 20px;
 
-			&:hover {
+			&:hover, &:focus {
 				color: #CCC;
 			}
 		}
@@ -560,6 +560,7 @@ nav {
 	padding: 10px 15px;
 	opacity: 1;
 	z-index: 1000 !important;
+	display: none;
 
 	.ui-datepicker-title {
 		text-align: center;
