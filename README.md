@@ -45,6 +45,16 @@ The **SiteCore** contains a default template file. If you wish to modify this te
 
 This will copy the template file to `app/views/flatturtle/sitecore` so that you can modify it.
 
+Style
+-----
+
+The template includes http://getbootstrap.com and http://fontawesome.io. You can also use these additional styles:
+
+ - `.colorful`: add the branding color as background color.
+ - `.highlight`: add the branding color as font color.
+ - `.center`: center align text.
+ - `h1.big`: a bigger h1 header.
+
 Carousel
 --------
 
