@@ -1,39 +1,38 @@
-Customers
-=========
+<h1>Customers</h1>
 
 <center>
-### "FlatTurtle helps **stressing the accessibility** of our buildings: it provides everything to the candidate at **one glance**."
+<h4>"FlatTurtle helps <strong>stressing the accessibility</strong> of our buildings: it provides everything to the candidate at <strong>one glance</strong>."</h4>
 
 &mdash; Gijsbert van Riemsdijk, UBS
 
-### "A **very positive impression**... Provides useful information and adds a dynamic image."
+<h4>"A <strong>very positive impression</strong>... Provides useful information and adds a dynamic image."</h4>
 
 &mdash; Christophe Mignot, IVG
 
-### "FlatTurtle visualises **useful information** about a specific location, in real-time."
+<h4>"FlatTurtle visualises <strong>useful information</strong> about a specific location, in real-time."</h4>
 
 &mdash; Christophe Jacobs, Codic
 
-### "Not being local, the display **helped us** to understand the accessibility."
+<h4>"Not being local, the display <strong>helped us</strong> to understand the accessibility."</h4>
 
 &mdash; Prakash Selva, Tech Mahindra
  
-### "It really does what we need: **convince potential tenants**."
+<h4>"It really does what we need: <strong>convince potential tenants</strong>."</h4>
 
 &mdash; Alexander Baeten, Tribeca Capital Partners
 
-***
+<hr>
 
-![Aberdeen](https://img.flatturtle.com/flatturtle.com/customers/aberdeen.png) 
-![Allianz](https://img.flatturtle.com/flatturtle.com/customers/allianz.png) 
-![Banimmo](https://img.flatturtle.com/flatturtle.com/customers/banimmo.png) 
-![Codic](https://img.flatturtle.com/flatturtle.com/customers/codic.png) 
-![Eurest](https://img.flatturtle.com/flatturtle.com/customers/eurest.png) 
-![EuroCapitalProperty](https://img.flatturtle.com/flatturtle.com/customers/eurocapitalproperty.png) 
-![IVG](https://img.flatturtle.com/flatturtle.com/customers/ivg.png) 
-![Mensura](https://img.flatturtle.com/flatturtle.com/customers/mensura.png) 
-![P&V](https://img.flatturtle.com/flatturtle.com/customers/pv.png) 
-![Realty](https://img.flatturtle.com/flatturtle.com/customers/realty.png) 
-![Tribeca](https://img.flatturtle.com/flatturtle.com/customers/tribeca.png) 
-![UBS](https://img.flatturtle.com/flatturtle.com/customers/ubs.png) 
+<img src="https://img.flatturtle.com/flatturtle.com/customers/aberdeen.png" alt="Aberdeen" />
+<img src="https://img.flatturtle.com/flatturtle.com/customers/allianz.png" alt="Allianz" /> 
+<img src="https://img.flatturtle.com/flatturtle.com/customers/banimmo.png" alt="Banimmo" /> 
+<img src="https://img.flatturtle.com/flatturtle.com/customers/codic.png" alt="Codic" />
+<img src="https://img.flatturtle.com/flatturtle.com/customers/eurest.png" alt="Eurest" />
+<img src="https://img.flatturtle.com/flatturtle.com/customers/eurocapitalproperty.png" alt="EuroCapitalProperty" />
+<img src="https://img.flatturtle.com/flatturtle.com/customers/ivg.png" alt="IVG" />
+<img src="https://img.flatturtle.com/flatturtle.com/customers/mensura.png" alt="Mensura" />
+<img src="https://img.flatturtle.com/flatturtle.com/customers/pv.png" alt="P&V" />
+<img src="https://img.flatturtle.com/flatturtle.com/customers/realty.png" alt="Realty" />
+<img src="https://img.flatturtle.com/flatturtle.com/customers/tribeca.png" alt="Tribeca" />
+<img src="https://img.flatturtle.com/flatturtle.com/customers/ubs.png" alt="UBS" />
 </center>

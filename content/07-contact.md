@@ -1,4 +1,4 @@
-# Contact
+<h1>Contact</h1>
 
 <div vocab="http://schema.org/" resource="http://flatturtle.com#_" typeof="LocalBusiness">
 Get in touch by dialing <span property="telephone" content="+3226691001"><a href="tel:+3226691001">+32 (0)2 669 1001</a></span> or sending an <span property="email" content="info@flatturtle.com"><a href="mailto:info@flatturtle.com">e-mail</a></span>.

@@ -7,7 +7,7 @@
 
 <h2>Provide your visitors with real-time updates from outside</h2>
 
-We use digital signage to keep the world informed. Our FlatTurtle displays are able to present **accurate, fully up-to-date information** for any particular location. 
+We use digital signage to keep the world informed. Our FlatTurtle displays are able to present <strong>accurate, fully up-to-date information</strong> for any particular location. 
 
 </div>
 <div class="col-md-3">
@@ -16,7 +16,7 @@ We use digital signage to keep the world informed. Our FlatTurtle displays are a
 <div class="col-md-3">
 
 <h2>Digital signage respecting your style</h2>
-Technology doesn't mean breaking your style. Our team will **integrate** the hardware with your interior design.
+Technology doesn't mean breaking your style. Our team will <strong>integrate</strong> the hardware with your interior design.
 
 </div>
 </div>
@@ -29,7 +29,7 @@ Technology doesn't mean breaking your style. Our team will **integrate** the har
 
 <h2>Manage your own datastreams</h2>
 
-Public data streams such a buses, trains or the traffic situation near your location appears magically on the screen. Also weather or newsstreams can be selected. Use the [control panel](#links) to **add your own information** on the screen.
+Public data streams such a buses, trains or the traffic situation near your location appears magically on the screen. Also weather or newsstreams can be selected. Use the <a href="#links">control panel</a> to <strong>add your own information</strong> on the screen.
 
 </div>
 
@@ -40,7 +40,7 @@ Public data streams such a buses, trains or the traffic situation near your loca
 
 <h2>Start with a FlatTurtle today</h2>
 
-And no matter how many FlatTurtle screens you have, you can control them separately. This means certain information on one screen, and different information on another. **It’s your choice**. We are ready, [are you](#contact)?
+And no matter how many FlatTurtle screens you have, you can control them separately. This means certain information on one screen, and different information on another. <strong>It’s your choice</strong>. We are ready, <a href="#contact">are you</a>?
 
 </div>
 </div>

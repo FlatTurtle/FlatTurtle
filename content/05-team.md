@@ -1,49 +1,46 @@
-Executive Team
-==============
+<h1>Executive Team</h1>
 
-Founders
---------
+<h2>Founders</h2>
 
-<div class="row"><div class="col-md-4">![Yeri Tiete](https://img.flatturtle.com/flatturtle.com/team/yeri.jpg)
+<div class="row"><div class="col-md-4"><img src="https://img.flatturtle.com/flatturtle.com/team/yeri.jpg" alt="Yeri Tiete" />
 
-### YERI TIETE
+<h3>YERI TIETE</h3>
 
-##### CEO
+<h4>CEO</h4>
 
-Yeri Tiete, system engineer and chairman of [iRail](http://hello.iRail.be), a not for profit supporting digital creativity concerning transport, handles the daily tasks of FlatTurtle.
+Yeri Tiete, system engineer and chairman of <a href="https://hello.iRail.be/" target="_blank">iRail</a>, a not for profit supporting digital creativity concerning transport, handles the daily tasks of FlatTurtle.
 With no mobile application available for public transport while Yeri was a student, he decided to build one himself and share it with others, for free, thereby causing great havoc (& fun) becoming subject of a discussion in the Belgian parliament.
 
-</div><div class="col-md-4">![Pieter Colpaert](https://img.flatturtle.com/flatturtle.com/team/pieter.jpg)
+</div><div class="col-md-4"><img src="https://img.flatturtle.com/flatturtle.com/team/pieter.jpg" alt="Pieter Colpaert" />
 
-### PIETER COLPAERT
+<h3>PIETER COLPAERT</h3>
 
-##### CTO
+<h4>CTO</h4>
 
 Pieter Colpaert, engineer and chairman of the [Open Knowledge Foundation](http://okfn.be) Belgium is currently pursuing a PhD on Linked Open Transport Data at Ghent University. He takes the lead of all software projects.
 
-</div><div class="col-md-4">![Christophe Petitjean](https://img.flatturtle.com/flatturtle.com/team/christophe.jpg)
+</div><div class="col-md-4"><img src="https://img.flatturtle.com/flatturtle.com/team/christophe.jpg" alt="Christophe Petitjean" />
 
-### CHRISTOPHE PETITJEAN
+<h3>CHRISTOPHE PETITJEAN</h3>
 
-##### CHIEF CREATIVITY
+<h4>CHIEF CREATIVITY</h4>
 
-Christophe Petitjean, economist and Junior Achievement/INSEAD-product, had to wait until these exciting times to combine his passion and creativity for data with his [niche business](http://www.rentalvalue.be) to get longterm vacant office properties leased in record time.
+Christophe Petitjean, economist and Junior Achievement/INSEAD-product, had to wait until these exciting times to combine his passion and creativity for data with his <a href="http://www.rentalvalue.be" target="_blank">niche business</a> to get longterm vacant office properties leased in record time.
 
 </div></div>
 
-Sales Executives
-----------------
+<h2>Sales Executives</h2>
 
-<div class="row"><div class="col-md-6">![Edouard Moreels](https://img.flatturtle.com/flatturtle.com/team/edouard.jpg)
+<div class="row"><div class="col-md-6"><img src="https://img.flatturtle.com/flatturtle.com/team/edouard.jpg" alt="Edouard Moreels" />
 
-### EDOUARD MOREELS
-##### BUSINESS DEVELOPER
+<h3>EDOUARD MOREELS</h3>
+<h4>BUSINESS DEVELOPER</h4>
 
 Marketing & Real Estate Communication Specialist with about 20 years of experience in Belgian Commercial Real Estate (CBRE, Hooox).
 
-</div><div class="col-md-6">![Serge Vandaele](https://img.flatturtle.com/flatturtle.com/team/serge.jpg)
+</div><div class="col-md-6"><img src="https://img.flatturtle.com/flatturtle.com/team/serge.jpg" alt="Serge Vandaele" />
 
 ### SERGE VANDAELE
 ##### BUSINESS DEVELOPER
 
-Sales Specialist with about 13 years of experience in Telecom (Sony, Telenet, Motorola).</div></div>
+Sales Specialist with about 13 years of experience in Telecom <br />(Sony, Telenet, Motorola).</div></div>

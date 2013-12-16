@@ -46,7 +46,7 @@ li {
 	line-height: 1.8em;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: inherit;
 	font-weight: 300;
 }
@@ -236,30 +236,30 @@ nav {
 	visibility: hidden;
 }
 
-#content {
+#content .block, #content + #reservations {
 
 	$color: #fafafa;
 	$location: 75px;
 
-	.block {
+	border-top: 1px solid #f7f7f7;
+	background: $color; /* Old browsers */
+	background: -moz-linear-gradient(top,  $color 0%, #ffffff $location, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e1e0), color-stop($location,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  $color 0%,#ffffff $location,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 
-		border-top: 1px solid #f7f7f7;
-		background: $color; /* Old browsers */
-		background: -moz-linear-gradient(top,  $color 0%, #ffffff $location, #ffffff 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e1e0), color-stop($location,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  $color 0%,#ffffff $location,#ffffff 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
 
+#content {
 
-		hr {
-			border-top-color: darken(#CCC, 10);
-			width: 75%;
-			margin-left: auto;
-			margin-right: auto;
-		}
+	hr {
+		border-top-color: darken(#CCC, 10);
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.block:first-child {
@@ -331,7 +331,7 @@ nav {
 
 #map {
 
-	height: 350px;
+	height: 450px;
 
 }
 

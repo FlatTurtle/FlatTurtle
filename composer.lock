@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "d574cde064f2cdea4a1dcafb2756777d0e09175c"
+                "reference": "0bd19fb6e0c3cbc9a6a30cca55dd036d02a86ac0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/d574cde064f2cdea4a1dcafb2756777d0e09175c",
-                "reference": "d574cde064f2cdea4a1dcafb2756777d0e09175c",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/0bd19fb6e0c3cbc9a6a30cca55dd036d02a86ac0",
+                "reference": "0bd19fb6e0c3cbc9a6a30cca55dd036d02a86ac0",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2013-12-16 16:53:31"
+            "time": "2013-12-16 19:55:52"
         },
         {
             "name": "guzzle/guzzle",
@@ -866,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "aa4d0a05ac36f1c2f6ceeaa96d31a05d19de297b"
+                "reference": "fd1c6f244f120e9d4a087da5c2f0094fbe5c6910"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/aa4d0a05ac36f1c2f6ceeaa96d31a05d19de297b",
-                "reference": "aa4d0a05ac36f1c2f6ceeaa96d31a05d19de297b",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/fd1c6f244f120e9d4a087da5c2f0094fbe5c6910",
+                "reference": "fd1c6f244f120e9d4a087da5c2f0094fbe5c6910",
                 "shasum": ""
             },
             "require": {
@@ -905,7 +905,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-12-16 16:05:22"
+            "time": "2013-12-16 17:52:11"
         },
         {
             "name": "psr/log",
