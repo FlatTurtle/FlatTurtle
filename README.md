@@ -70,26 +70,6 @@ You can order your site's content by adding numbers in front of the file name:
 	01-first_block.md
 	02-second_block.html
 
-### Markdown grid system
-
-There is a custom markdown extension that adds support for Bootstrap's grid system. In any block, add `{.col-xx-#}` to wrap it with the corresponding grid `<div>` tag.
-
-Example:
-
-	This paragraph is on the left. {.col-md-6}
-
-	This paragraph is on the right. {.col-md-6}
-
-The grid "identifier" can be added to the front or the back of the block:
-
-	{.col-md-6} This paragraph is on the left.
-
-	{.col-md-6} This paragraph is on the right.
-
-And works with images as well (duh!):
-
-	![Image on the left](http://url.jpg){.col-md-6}
-
 Commands
 --------
 

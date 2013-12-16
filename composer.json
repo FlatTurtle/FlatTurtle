@@ -4,7 +4,7 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.0.*",
+		"laravel/framework": "4.1.*",
 		"flatturtle/sitecore": "dev-master"
 	},
 	"repositories": [
@@ -23,10 +23,8 @@
 			"php artisan optimize",
 			"php artisan flatturtle:update"
 		],
-		"pre-update-cmd": [
-			"php artisan clear-compiled"
-		],
 		"post-update-cmd": [
+			"php artisan clear-compiled",
 			"php artisan optimize",
 			"php artisan flatturtle:update"
 		],
