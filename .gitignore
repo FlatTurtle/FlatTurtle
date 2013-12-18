@@ -7,3 +7,6 @@ Thumbs.db
 
 # Passwords file
 /app/config/packages/flatturtle/sitecore/passwords.php
+
+# Assets
+/public/packages
