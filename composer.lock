@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "392716391cc42b50866b77daf0c0db36b36ba1d7"
+                "reference": "273842174ed436c5dd7d72b95467330201a4be6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/392716391cc42b50866b77daf0c0db36b36ba1d7",
-                "reference": "392716391cc42b50866b77daf0c0db36b36ba1d7",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/273842174ed436c5dd7d72b95467330201a4be6a",
+                "reference": "273842174ed436c5dd7d72b95467330201a4be6a",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2013-12-18 09:58:07"
+            "time": "2013-12-18 10:05:14"
         },
         {
             "name": "guzzle/guzzle",
