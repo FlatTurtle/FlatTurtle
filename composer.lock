@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "0aa98c3a2ecdbcccabea92084c3020083cb70cde"
+                "reference": "392716391cc42b50866b77daf0c0db36b36ba1d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/0aa98c3a2ecdbcccabea92084c3020083cb70cde",
-                "reference": "0aa98c3a2ecdbcccabea92084c3020083cb70cde",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/392716391cc42b50866b77daf0c0db36b36ba1d7",
+                "reference": "392716391cc42b50866b77daf0c0db36b36ba1d7",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2013-12-16 20:54:34"
+            "time": "2013-12-18 09:58:07"
         },
         {
             "name": "guzzle/guzzle",
@@ -772,12 +772,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "df8c3723aa0e575a3fccaf91acb79091d46bb2f3"
+                "reference": "0dc8b27a6a47c22a20efd7172fd71d88234869ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/df8c3723aa0e575a3fccaf91acb79091d46bb2f3",
-                "reference": "df8c3723aa0e575a3fccaf91acb79091d46bb2f3",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/0dc8b27a6a47c22a20efd7172fd71d88234869ca",
+                "reference": "0dc8b27a6a47c22a20efd7172fd71d88234869ca",
                 "shasum": ""
             },
             "require": {
@@ -858,7 +858,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2013-12-11 22:30:13"
+            "time": "2013-12-17 19:55:56"
         },
         {
             "name": "predis/predis",
@@ -866,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "fd1c6f244f120e9d4a087da5c2f0094fbe5c6910"
+                "reference": "56627f30f83e1adf5e27c8d44bf0f55eaeab801a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/fd1c6f244f120e9d4a087da5c2f0094fbe5c6910",
-                "reference": "fd1c6f244f120e9d4a087da5c2f0094fbe5c6910",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/56627f30f83e1adf5e27c8d44bf0f55eaeab801a",
+                "reference": "56627f30f83e1adf5e27c8d44bf0f55eaeab801a",
                 "shasum": ""
             },
             "require": {
@@ -905,7 +905,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-12-16 17:52:11"
+            "time": "2013-12-17 12:00:39"
         },
         {
             "name": "psr/log",
@@ -1270,12 +1270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "809495cca56a45e0df92b8d68764cf7d454b88c5"
+                "reference": "34ae881791b5efd8fd44fdc2b0e2ad1da20aa86b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/809495cca56a45e0df92b8d68764cf7d454b88c5",
-                "reference": "809495cca56a45e0df92b8d68764cf7d454b88c5",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/34ae881791b5efd8fd44fdc2b0e2ad1da20aa86b",
+                "reference": "34ae881791b5efd8fd44fdc2b0e2ad1da20aa86b",
                 "shasum": ""
             },
             "require": {
@@ -1314,7 +1314,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-03 14:52:22"
+            "time": "2013-12-17 13:01:50"
         },
         {
             "name": "symfony/event-dispatcher",

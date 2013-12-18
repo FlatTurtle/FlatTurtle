@@ -8,6 +8,9 @@ $font-color: #575757;
 $subtitle-color: #999999;
 $line-color: #DDD;
 
+$font-normal: "Soho Gothic W01 Light";
+$font-bold: "Soho Gothic W01 Regular";
+
 $blur-size: 50px;
 $nav-height: 60px;
 $carousel-height: 600px;
@@ -15,7 +18,7 @@ $carousel-height: 600px;
 /* ============ General ============ */
 
 body {
-	font-family: "Soho Gothic W01 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: $font-normal, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: $body-color;
 	color: $font-color;
 	margin-top: $nav-height;
@@ -27,7 +30,7 @@ body {
 }
 
 strong, b {
-	font-family: "Soho Gothic W01 Medium";
+	font-family: $font-bold;
 }
 
 /* ============ Utilities ============ */
@@ -72,7 +75,7 @@ h1.big {
 	width: 100%;
 
 	.carousel-inner {
-		height: $carousel-height;
+		height: 100%;
 	}
 
 	#top-blur, #bottom-blur {
@@ -137,7 +140,9 @@ h1.big {
 		}
 
 		img {
-			margin-top: ($carousel-height / 2) - 65;
+			top: 50%;
+			position: absolute;
+			margin-top: -65px;
 		}
 	}
 }
@@ -170,9 +175,9 @@ nav {
 	#brand {
 		display: inline-block;
 		font-size: 150%;
-		font-weight: bold;
 		text-decoration: none;
 		float: left;
+		font-family: $font-bold;
 	}
 
 	ul {
@@ -212,14 +217,18 @@ nav {
 	padding-top: 40px;
 	padding-bottom: 40px;
 
-	h1:first-child, .row h1 {
-		margin-bottom: 30px;
+	h1 {
 		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	h2 {
+		color: $subtitle-color;
+		margin-top: 0;
+		margin-bottom: 30px;
 	}
 
 	h1 + h2 {
-		color: $subtitle-color;
-		margin-bottom: 30px;
 		margin-top: -10px;
 	}
 
@@ -260,12 +269,13 @@ nav {
 #content {
 
 	hr {
-		border-top-color: darken(#CCC, 10);
+		border-top-color: $line-color;
 		width: 75%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
+	// disable gradient style for first block
 	.block:first-child {
 		background: none;
 		filter: none;
@@ -275,6 +285,15 @@ nav {
 	img {
 		max-width: 100%;
 		border-radius: 5px;
+	}
+
+	// add some spacing between multiple rows
+	.block .row {
+		margin-bottom: 30px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 
 }
@@ -568,7 +587,7 @@ nav {
 
 	.ui-datepicker-title {
 		text-align: center;
-		font-family: "Soho Gothic W01 Bold", sans-serif;
+		font-family: $font-bold, sans-serif;
 		padding-bottom: 5px;
 		padding-top: 5px;
 	}
@@ -600,12 +619,12 @@ nav {
 
 		&.ui-state-highlight {
 			color: $font-color;
-			font-family: "Soho Gothic W01 Bold", sans-serif;
+			font-family: $font-normal, sans-serif;
 		}
 
 		&.ui-state-active {
 			color: $font-color;
-			font-family: "Soho Gothic W01 Bold", sans-serif;
+			font-family: $font-normal, sans-serif;
 			border: 1px solid $line-color;
 			border-radius: 5px;
 		}
