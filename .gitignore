@@ -1,7 +1,9 @@
+# Laravel
 /bootstrap/compiled.php
 /vendor
 composer.phar
 .DS_Store
 Thumbs.db
-/public/css/.sass-cache
-/public/packages
+
+# Passwords file
+/app/config/packages/flatturtle/sitecore/passwords.php

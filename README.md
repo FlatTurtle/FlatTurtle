@@ -34,7 +34,11 @@ The `composer.lock` file contains the exact version numbers of the dependancies 
 Configuration
 -------------
 
-After installing the **SiteCore** there will be a configuration file located in `app/config/packages/flatturtle/sitecore`.
+After installing the **SiteCore** there will be a configuration **and password** file located in `app/config/packages/flatturtle/sitecore`. Make sure you set a valid password for the following services in `passwords.php`:
+
+	'reservations' => '...'
+
+**WARNING!** The password file is ignored by git, so deploy it manually.
 
 Templating
 ----------
