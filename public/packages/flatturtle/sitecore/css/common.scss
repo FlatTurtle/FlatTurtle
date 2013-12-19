@@ -161,10 +161,39 @@ nav {
 	background-color: $body-color;
 
 	.btn {
+		// Gradient
+		$start-color: rgba(255,255,255,0.3); // light
+		$end-color: rgba(0,0,0,0.2); // dark
+		background: -moz-linear-gradient(top,  $start-color 0%, $end-color 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$start-color), color-stop(100%,$end-color)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  $start-color 0%, $end-color 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  $start-color 0%, $end-color 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  $start-color 0%, $end-color 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  $start-color 0%, $end-color 100%); /* W3C */
+
+		// Shadow
+		$shadow-blur: 5px;
+		$shadow-size: 1px;
+		$shadow-opacity: 0.15;
+		-webkit-box-shadow: 0 0 $shadow-blur $shadow-size rgba(0,0,0,$shadow-opacity);
+		box-shadow: 0 0 $shadow-blur $shadow-size rgba(0,0,0,$shadow-opacity);
+
+		// Border
+		border: 1px solid $end-color;
 		border-radius: 20px;
 
 		&:hover {
 			color: #FFF;
+
+			// Gradient
+			$start-color: opacify($start-color, 0.05); // light
+			$end-color: opacify($end-color, 0.05); // dark
+			background: -moz-linear-gradient(top,  $start-color 0%, $end-color 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$start-color), color-stop(100%,$end-color)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  $start-color 0%, $end-color 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  $start-color 0%, $end-color 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  $start-color 0%, $end-color 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  $start-color 0%, $end-color 100%); /* W3C */
 		}
 	}
 
@@ -262,7 +291,7 @@ nav {
 	border-top: 1px solid #f7f7f7;
 	background: $color; /* Old browsers */
 	background: -moz-linear-gradient(top,  $color 0%, #ffffff $location, #ffffff 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e1e0), color-stop($location,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop($location,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  $color 0%,#ffffff $location,#ffffff 100%); /* IE10+ */
@@ -532,6 +561,12 @@ nav {
 			border-radius: 5px;
 			padding: 5px 10px;
 			margin-bottom: 10px;
+		}
+
+		label {
+			width: 200px;
+			text-align: right;
+			margin-left: -150px;
 		}
 
 		input {

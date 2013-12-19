@@ -127,6 +127,7 @@ $(document).ready(function(){
                 var to = $('#reservations #timepicker #to').val();
                 if (!to) return;
 
+                // Draw selection
                 showSelection();
 
                 // Show details
@@ -135,6 +136,34 @@ $(document).ready(function(){
                     // Mark as done
                     $('#reservations #timepicker').addClass('done');
                 });
+            });
+
+
+            // Timepicker click event
+            $('#reservations #timepicker #bar').click(function(e)
+            {
+                var x = e.offsetX;
+                var perc = x / $(this).width();
+                var seconds = timeline_start + ((timeline_end - timeline_start) * perc);
+
+                var minutes = Math.floor((seconds % 3600) / 60);
+                var hours = Math.floor(seconds / 3600);
+
+                var from = $('#reservations #timepicker #from').val();
+                if (!from)
+                {
+                    $('#reservations #timepicker #from').val(hours + ':' + minutes);
+                    showSelection();
+                    return;
+                }
+
+                var to = $('#reservations #timepicker #to').val();
+                if (!to)
+                {
+                    $('#reservations #timepicker #to').val(hours + ':' + minutes);
+                    showSelection();
+                    return;
+                }
             });
 
 
@@ -152,6 +181,7 @@ $(document).ready(function(){
                     company:    $('#reservations input#company').val(),
                     email:      $('#reservations input#email').val(),
                     subject:    $('#reservations input#subject').val(),
+                    announce:   $('#reservations input#announce').val(),
                     from:       date + " " + from,
                     to:         date + " " + to,
                     comment:    $('#reservations textarea#comment').val(),
@@ -213,8 +243,8 @@ $(document).ready(function(){
                 var hours = thing.opening_hours[dotw];
 
                 // Convert start and end to seconds
-                opens = convertTime(hours.opens[0]);
-                closes = convertTime(hours.closes[hours.closes.length - 1]);
+                opens = convertToSeconds(hours.opens[0]);
+                closes = convertToSeconds(hours.closes[hours.closes.length - 1]);
 
                 // Round opening hours
                 timeline_start = Math.floor(opens / 3600) * 3600;
@@ -270,12 +300,95 @@ $(document).ready(function(){
                 showSelection();
             }
 
+            /**
+             * Check the user time input
+             */
+            function checkSelection()
+            {
+                console.log('check selection');
+
+                var from = $('#reservations #timepicker #from').val();
+                if (from)
+                {
+                    var seconds = convertToSeconds(from);
+                    var minutes = Math.floor((seconds % 3600) / 60);
+                    var hours = Math.floor(seconds / 3600);
+
+                    if (minutes % 15 != 0)
+                    {
+                        // Round minutes
+                        hours = minutes > 52 ? (hours === 23 ? 0 : hours + 1) : hours;
+                        minutes = (Math.round(minutes/15) * 15) % 60;
+
+                        // Add padding
+                        minutes = ("0" + minutes).slice(-2);
+                        hours = ("0" + hours).slice(-2);
+
+                        $('#reservations #timepicker #from').val(hours + ":" + minutes).trigger('change');
+                    }
+                }
+
+                var to = $('#reservations #timepicker #to').val();
+                if (to)
+                {
+                    var seconds = convertToSeconds(to);
+                    var minutes = Math.floor((seconds % 3600) / 60);
+                    var hours = Math.floor(seconds / 3600);
+
+                    // Done
+                    if (minutes % 15 != 0)
+                    {
+                        // Round minutes
+                        hours = minutes > 52 ? (hours === 23 ? 0 : hours + 1) : hours;
+                        minutes = (Math.round(minutes/15) * 15) % 60;
+
+                        // Add padding
+                        minutes = ("0" + minutes).slice(-2);
+                        hours = ("0" + hours).slice(-2);
+
+                        $('#reservations #timepicker #to').val(hours + ":" + minutes).trigger('change');
+                    }
+                }
+
+                from = $('#reservations #timepicker #from').val();
+                to = $('#reservations #timepicker #to').val();
+
+                // Only continue with both values
+                if (!from || !to) return;
+
+                // Convert time to seconds
+                from = convertToSeconds(from);
+                to = convertToSeconds(to);
+
+                // Get duration in seconds
+                var duration = to - from;
+
+                if (duration % 3600 != 0)
+                {
+                    // Round duration to nearest hour
+                    duration = Math.round(duration / 3600) * 3600;
+
+                    var seconds = from + duration;
+                    var minutes = Math.floor((seconds % 3600) / 60);
+                    var hours = Math.floor(seconds / 3600);
+
+                    // Add padding
+                    minutes = ("0" + minutes).slice(-2);
+                    hours = ("0" + hours).slice(-2);
+
+                    $('#reservations #timepicker #to').val(hours + ":" + minutes).trigger('change');
+                }
+            }
+
 
             /**
              * Show the user selection on the timepicker
              */
             function showSelection()
             {
+                // Validate user input
+                checkSelection();
+
                 var from = $('#reservations #timepicker #from').val();
                 if (!from) return;
 
@@ -296,8 +409,8 @@ $(document).ready(function(){
             function drawBlock(from, to, style)
             {
                 // Convert time to seconds
-                from = convertTime(from);
-                to = convertTime(to);
+                from = convertToSeconds(from);
+                to = convertToSeconds(to);
 
                 // No out of bounds
                 if (from < timeline_start)
@@ -337,19 +450,19 @@ $(document).ready(function(){
             /**
              * Convert a time string or object to seconds since the beginning of the day
              */
-            function convertTime(time)
+            function convertToSeconds(time)
             {
                 if (typeof time == 'string')
                 {
                     parts = time.split(':');
-                    seconds = parts[0] * 60*60 + parts[1] * 60;
+                    return parts[0] * 60*60 + parts[1] * 60;
                 }
                 else if (time instanceof Date)
                 {
-                    seconds = time.getTime() % (86400 * 1000) / 1000;
+                    return time.getTime() % (86400 * 1000) / 1000;
                 }
 
-                return seconds;
+                return time;
             }
 
 

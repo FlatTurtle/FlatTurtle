@@ -92,12 +92,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "0f027dc04bf6a56ce54b3be8617e4d46f44ca59c"
+                "reference": "df6fe915c69477ff4fa2fb73177e606a5d279d78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/0f027dc04bf6a56ce54b3be8617e4d46f44ca59c",
-                "reference": "0f027dc04bf6a56ce54b3be8617e4d46f44ca59c",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/df6fe915c69477ff4fa2fb73177e606a5d279d78",
+                "reference": "df6fe915c69477ff4fa2fb73177e606a5d279d78",
                 "shasum": ""
             },
             "type": "library",
@@ -123,7 +123,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2013-12-15 22:56:12"
+            "time": "2013-12-18 18:36:06"
         },
         {
             "name": "filp/whoops",
@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "693f3fe6d712cec8c8408c143b35f567ea5aee56"
+                "reference": "26638c57f58cb7c569994e8cba3567a925bf4643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/693f3fe6d712cec8c8408c143b35f567ea5aee56",
-                "reference": "693f3fe6d712cec8c8408c143b35f567ea5aee56",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/26638c57f58cb7c569994e8cba3567a925bf4643",
+                "reference": "26638c57f58cb7c569994e8cba3567a925bf4643",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2013-12-18 11:47:04"
+            "time": "2013-12-19 14:53:33"
         },
         {
             "name": "guzzle/guzzle",
@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "4c7dd3c0eddc471b20bf57f7ea7789c2ecab248e"
+                "reference": "4884222dc15c49719df476fb8070b4fff180b231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/4c7dd3c0eddc471b20bf57f7ea7789c2ecab248e",
-                "reference": "4c7dd3c0eddc471b20bf57f7ea7789c2ecab248e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4884222dc15c49719df476fb8070b4fff180b231",
+                "reference": "4884222dc15c49719df476fb8070b4fff180b231",
                 "shasum": ""
             },
             "require": {
@@ -555,7 +555,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-12-13 18:42:36"
+            "time": "2013-12-19 02:01:12"
         },
         {
             "name": "monolog/monolog",
@@ -866,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "56627f30f83e1adf5e27c8d44bf0f55eaeab801a"
+                "reference": "b45f87caf2aac0c9d84b35d60ccf4e8cc74c8dc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/56627f30f83e1adf5e27c8d44bf0f55eaeab801a",
-                "reference": "56627f30f83e1adf5e27c8d44bf0f55eaeab801a",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/b45f87caf2aac0c9d84b35d60ccf4e8cc74c8dc1",
+                "reference": "b45f87caf2aac0c9d84b35d60ccf4e8cc74c8dc1",
                 "shasum": ""
             },
             "require": {
@@ -905,7 +905,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-12-17 12:00:39"
+            "time": "2013-12-19 10:51:45"
         },
         {
             "name": "psr/log",
