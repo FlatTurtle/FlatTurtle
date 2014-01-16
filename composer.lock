@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "af5bec13037e9210d72d480d5b5032bab0852ee5"
+                "reference": "4babb17a697c5270f731e4aca25c729e7ddb7b78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/af5bec13037e9210d72d480d5b5032bab0852ee5",
-                "reference": "af5bec13037e9210d72d480d5b5032bab0852ee5",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/4babb17a697c5270f731e4aca25c729e7ddb7b78",
+                "reference": "4babb17a697c5270f731e4aca25c729e7ddb7b78",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2014-01-06 15:33:12"
+            "time": "2014-01-16 17:25:19"
         },
         {
             "name": "guzzle/guzzle",
@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "6ef45a4097c4c99faa0c815e059dffa8e4c3b0bd"
+                "reference": "cd97afb9dd564869d607eb18abf8ec84be647e87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/6ef45a4097c4c99faa0c815e059dffa8e4c3b0bd",
-                "reference": "6ef45a4097c4c99faa0c815e059dffa8e4c3b0bd",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/cd97afb9dd564869d607eb18abf8ec84be647e87",
+                "reference": "cd97afb9dd564869d607eb18abf8ec84be647e87",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-01-10 18:51:00"
+            "time": "2014-01-15 23:31:19"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "6e246f3468faef37c9073188728e7a942b93a638"
+                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6e246f3468faef37c9073188728e7a942b93a638",
-                "reference": "6e246f3468faef37c9073188728e7a942b93a638",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/97f5fece6ce23a25581dde2a28f4ffc175405022",
+                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022",
                 "shasum": ""
             },
             "require": {
@@ -555,7 +555,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-01-14 06:12:57"
+            "time": "2014-01-16 04:17:29"
         },
         {
             "name": "monolog/monolog",
@@ -563,12 +563,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "296095fe2ee052161f8226d55df775103bb6c259"
+                "reference": "01a01a4841ea749426834d127c897f4dc9d62611"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/296095fe2ee052161f8226d55df775103bb6c259",
-                "reference": "296095fe2ee052161f8226d55df775103bb6c259",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/01a01a4841ea749426834d127c897f4dc9d62611",
+                "reference": "01a01a4841ea749426834d127c897f4dc9d62611",
                 "shasum": ""
             },
             "require": {
@@ -622,7 +622,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-01-14 13:24:06"
+            "time": "2014-01-15 09:37:32"
         },
         {
             "name": "nesbot/carbon",
@@ -866,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "0f01b89d44368633e05da72db434df3cb078f08c"
+                "reference": "5f2eea628eb465d866ad2771927d83769c8f956c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/0f01b89d44368633e05da72db434df3cb078f08c",
-                "reference": "0f01b89d44368633e05da72db434df3cb078f08c",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/5f2eea628eb465d866ad2771927d83769c8f956c",
+                "reference": "5f2eea628eb465d866ad2771927d83769c8f956c",
                 "shasum": ""
             },
             "require": {
@@ -905,7 +905,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2014-01-10 16:46:58"
+            "time": "2014-01-16 14:10:29"
         },
         {
             "name": "psr/log",
