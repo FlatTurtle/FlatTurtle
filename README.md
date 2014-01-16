@@ -97,6 +97,6 @@ Used when installing the **SiteCore** for the first time. This will:
 Copyright and license
 ---------------------
 
-2012-2013 - FlatTurtle
+2012-2014 - FlatTurtle
 
 Code is licensed under AGPLv3
