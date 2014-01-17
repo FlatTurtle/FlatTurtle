@@ -54,16 +54,16 @@
         },
         {
             "name": "d11wtq/boris",
-            "version": "v1.0.6",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/d11wtq/boris.git",
-                "reference": "7db59be30dad2e6f902db348e21a939215fbd967"
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/d11wtq/boris/zipball/7db59be30dad2e6f902db348e21a939215fbd967",
-                "reference": "7db59be30dad2e6f902db348e21a939215fbd967",
+                "url": "https://api.github.com/repos/d11wtq/boris/zipball/125dd4e5752639af7678a22ea597115646d89c6e",
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-11-18 12:13:16"
+            "time": "2014-01-17 12:21:18"
         },
         {
             "name": "erusev/parsedown",
@@ -92,12 +92,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "4317add3a20d8584c15494a289f0154be8107279"
+                "reference": "fee5b71998719917c802ad8a9fda94652c6dc997"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/4317add3a20d8584c15494a289f0154be8107279",
-                "reference": "4317add3a20d8584c15494a289f0154be8107279",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/fee5b71998719917c802ad8a9fda94652c6dc997",
+                "reference": "fee5b71998719917c802ad8a9fda94652c6dc997",
                 "shasum": ""
             },
             "type": "library",
@@ -123,7 +123,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2013-12-28 12:57:25"
+            "time": "2014-01-16 23:33:20"
         },
         {
             "name": "filp/whoops",
@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "4babb17a697c5270f731e4aca25c729e7ddb7b78"
+                "reference": "e56a1f5ef97d8456a4e9c2c433f30bbeb109673e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/4babb17a697c5270f731e4aca25c729e7ddb7b78",
-                "reference": "4babb17a697c5270f731e4aca25c729e7ddb7b78",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/e56a1f5ef97d8456a4e9c2c433f30bbeb109673e",
+                "reference": "e56a1f5ef97d8456a4e9c2c433f30bbeb109673e",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2014-01-16 17:25:19"
+            "time": "2014-01-16 22:00:21"
         },
         {
             "name": "guzzle/guzzle",
@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022"
+                "reference": "f666769daad9f0accd980897451012d6acac48d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/97f5fece6ce23a25581dde2a28f4ffc175405022",
-                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f666769daad9f0accd980897451012d6acac48d7",
+                "reference": "f666769daad9f0accd980897451012d6acac48d7",
                 "shasum": ""
             },
             "require": {
@@ -555,7 +555,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-01-16 04:17:29"
+            "time": "2014-01-17 22:56:05"
         },
         {
             "name": "monolog/monolog",
@@ -563,12 +563,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "01a01a4841ea749426834d127c897f4dc9d62611"
+                "reference": "7f783c0ab09dc341f858882e2d2ce6fc36ca1351"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/01a01a4841ea749426834d127c897f4dc9d62611",
-                "reference": "01a01a4841ea749426834d127c897f4dc9d62611",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/7f783c0ab09dc341f858882e2d2ce6fc36ca1351",
+                "reference": "7f783c0ab09dc341f858882e2d2ce6fc36ca1351",
                 "shasum": ""
             },
             "require": {
@@ -580,7 +580,7 @@
                 "doctrine/couchdb": "dev-master",
                 "mlehner/gelf-php": "1.0.*",
                 "phpunit/phpunit": "~3.7.0",
-                "raven/raven": "0.5.*",
+                "raven/raven": "~0.5",
                 "ruflin/elastica": "0.90.*"
             },
             "suggest": {
@@ -622,7 +622,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-01-15 09:37:32"
+            "time": "2014-01-17 14:16:06"
         },
         {
             "name": "nesbot/carbon",
