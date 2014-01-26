@@ -92,12 +92,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "65ef541fdab12a446e7c28269cdcc70ba6cdf3bb"
+                "reference": "b764deca6650ca535e01ec5062bb5614c7a507fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/65ef541fdab12a446e7c28269cdcc70ba6cdf3bb",
-                "reference": "65ef541fdab12a446e7c28269cdcc70ba6cdf3bb",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/b764deca6650ca535e01ec5062bb5614c7a507fb",
+                "reference": "b764deca6650ca535e01ec5062bb5614c7a507fb",
                 "shasum": ""
             },
             "type": "library",
@@ -123,7 +123,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2014-01-25 16:47:44"
+            "time": "2014-01-26 01:36:25"
         },
         {
             "name": "filp/whoops",
@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "e09996eefc479cec9f0f51ca803ad6d3bf30fc34"
+                "reference": "7e064ef2b7cc14d129cd141fd7945b4f21dd8e86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/e09996eefc479cec9f0f51ca803ad6d3bf30fc34",
-                "reference": "e09996eefc479cec9f0f51ca803ad6d3bf30fc34",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/7e064ef2b7cc14d129cd141fd7945b4f21dd8e86",
+                "reference": "7e064ef2b7cc14d129cd141fd7945b4f21dd8e86",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2014-01-24 16:56:19"
+            "time": "2014-01-25 19:44:25"
         },
         {
             "name": "guzzle/guzzle",
