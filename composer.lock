@@ -92,12 +92,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "b764deca6650ca535e01ec5062bb5614c7a507fb"
+                "reference": "618ab4e1564b2da59375196448d413fd5c279011"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/b764deca6650ca535e01ec5062bb5614c7a507fb",
-                "reference": "b764deca6650ca535e01ec5062bb5614c7a507fb",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/618ab4e1564b2da59375196448d413fd5c279011",
+                "reference": "618ab4e1564b2da59375196448d413fd5c279011",
                 "shasum": ""
             },
             "type": "library",
@@ -123,7 +123,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2014-01-26 01:36:25"
+            "time": "2014-01-26 17:53:24"
         },
         {
             "name": "filp/whoops",
@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "408cbdfeb4a9d900699aaac602bc9828a7578ea6"
+                "reference": "ca996fa813bd3fe8e2953ac743978f7d601f2cbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/408cbdfeb4a9d900699aaac602bc9828a7578ea6",
-                "reference": "408cbdfeb4a9d900699aaac602bc9828a7578ea6",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ca996fa813bd3fe8e2953ac743978f7d601f2cbb",
+                "reference": "ca996fa813bd3fe8e2953ac743978f7d601f2cbb",
                 "shasum": ""
             },
             "require": {
@@ -555,7 +555,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-01-24 14:42:15"
+            "time": "2014-01-28 20:12:54"
         },
         {
             "name": "monolog/monolog",
@@ -956,12 +956,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackphp/builder.git",
-                "reference": "f98a5eb77b212a77b67a70f74d856ae859dd74b3"
+                "reference": "b4af43e7b7f3f7fac919ff475b29f7c5dc7b23b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackphp/builder/zipball/f98a5eb77b212a77b67a70f74d856ae859dd74b3",
-                "reference": "f98a5eb77b212a77b67a70f74d856ae859dd74b3",
+                "url": "https://api.github.com/repos/stackphp/builder/zipball/b4af43e7b7f3f7fac919ff475b29f7c5dc7b23b7",
+                "reference": "b4af43e7b7f3f7fac919ff475b29f7c5dc7b23b7",
                 "shasum": ""
             },
             "require": {
@@ -998,7 +998,7 @@
             "keywords": [
                 "stack"
             ],
-            "time": "2014-01-18 16:33:58"
+            "time": "2014-01-28 19:42:24"
         },
         {
             "name": "swiftmailer/swiftmailer",
