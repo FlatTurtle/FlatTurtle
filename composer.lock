@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "7e064ef2b7cc14d129cd141fd7945b4f21dd8e86"
+                "reference": "e7516c3ecc96ff45d2163c50083c420f1f65e7c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/7e064ef2b7cc14d129cd141fd7945b4f21dd8e86",
-                "reference": "7e064ef2b7cc14d129cd141fd7945b4f21dd8e86",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/e7516c3ecc96ff45d2163c50083c420f1f65e7c4",
+                "reference": "e7516c3ecc96ff45d2163c50083c420f1f65e7c4",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2014-01-25 19:44:25"
+            "time": "2014-02-11 18:30:35"
         },
         {
             "name": "guzzle/guzzle",
@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "63c8b10b98ca42ff5779b3fd76f33e51b153d206"
+                "reference": "01a5dddefab2b15cc98a714967881d7e5b44835a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/63c8b10b98ca42ff5779b3fd76f33e51b153d206",
-                "reference": "63c8b10b98ca42ff5779b3fd76f33e51b153d206",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/01a5dddefab2b15cc98a714967881d7e5b44835a",
+                "reference": "01a5dddefab2b15cc98a714967881d7e5b44835a",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-02-08 21:41:59"
+            "time": "2014-02-11 18:14:34"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -672,32 +672,32 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "dev-master",
+            "version": "0.9.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "5cab2a78442f4c690866c85017f4e99f732602ce"
+                "reference": "6f36a88993a07d0ccd52d813ceff27de022429c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/5cab2a78442f4c690866c85017f4e99f732602ce",
-                "reference": "5cab2a78442f4c690866c85017f4e99f732602ce",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/6f36a88993a07d0ccd52d813ceff27de022429c3",
+                "reference": "6f36a88993a07d0ccd52d813ceff27de022429c3",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": ">=5.3"
+                "php": ">=5.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "0.9-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "lib/bootstrap.php"
-                ]
+                "psr-0": {
+                    "PHPParser": "lib/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -713,7 +713,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2014-02-06 20:39:57"
+            "time": "2014-01-24 19:27:42"
         },
         {
             "name": "patchwork/utf8",
@@ -772,12 +772,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "f4dbcb1b7844c41b9bdd915e82f3d6c7d5a09d5e"
+                "reference": "a7106a737ee937281878bbe53c181fb5aefc1f8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/f4dbcb1b7844c41b9bdd915e82f3d6c7d5a09d5e",
-                "reference": "f4dbcb1b7844c41b9bdd915e82f3d6c7d5a09d5e",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/a7106a737ee937281878bbe53c181fb5aefc1f8d",
+                "reference": "a7106a737ee937281878bbe53c181fb5aefc1f8d",
                 "shasum": ""
             },
             "require": {
@@ -858,7 +858,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2014-02-03 15:56:36"
+            "time": "2014-02-11 00:00:44"
         },
         {
             "name": "predis/predis",
@@ -866,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "5f2eea628eb465d866ad2771927d83769c8f956c"
+                "reference": "809f76a7b3fd0e510a29753528e954a33fa597db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/5f2eea628eb465d866ad2771927d83769c8f956c",
-                "reference": "5f2eea628eb465d866ad2771927d83769c8f956c",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/809f76a7b3fd0e510a29753528e954a33fa597db",
+                "reference": "809f76a7b3fd0e510a29753528e954a33fa597db",
                 "shasum": ""
             },
             "require": {
@@ -905,7 +905,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2014-01-16 14:10:29"
+            "time": "2014-02-11 18:10:09"
         },
         {
             "name": "psr/log",
@@ -1111,12 +1111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "b93de9e62eae87ac734fd56da2088f0494ab0214"
+                "reference": "940f217cbc3c8a33e5403e7c595495c4884400fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/b93de9e62eae87ac734fd56da2088f0494ab0214",
-                "reference": "b93de9e62eae87ac734fd56da2088f0494ab0214",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/940f217cbc3c8a33e5403e7c595495c4884400fe",
+                "reference": "940f217cbc3c8a33e5403e7c595495c4884400fe",
                 "shasum": ""
             },
             "require": {
@@ -1146,7 +1146,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1155,7 +1157,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-03 17:15:33"
+            "time": "2014-02-11 13:52:09"
         },
         {
             "name": "symfony/css-selector",
@@ -1164,12 +1166,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector.git",
-                "reference": "272e1db67f6f87705fda3bd1277e92a0f1016dd2"
+                "reference": "ed1d61b2e23a0fd5dba0b20651258c4633d3e3a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/272e1db67f6f87705fda3bd1277e92a0f1016dd2",
-                "reference": "272e1db67f6f87705fda3bd1277e92a0f1016dd2",
+                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/ed1d61b2e23a0fd5dba0b20651258c4633d3e3a7",
+                "reference": "ed1d61b2e23a0fd5dba0b20651258c4633d3e3a7",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1195,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1206,7 +1210,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "http://symfony.com",
-            "time": "2014-01-24 14:36:08"
+            "time": "2014-02-11 13:52:09"
         },
         {
             "name": "symfony/debug",
@@ -1475,12 +1479,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "4bd82e35304e4087706469525c5cb61d125f4c03"
+                "reference": "cdee7c84ba8b2a8aafa1c055f5cb4f640d81c129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/4bd82e35304e4087706469525c5cb61d125f4c03",
-                "reference": "4bd82e35304e4087706469525c5cb61d125f4c03",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/cdee7c84ba8b2a8aafa1c055f5cb4f640d81c129",
+                "reference": "cdee7c84ba8b2a8aafa1c055f5cb4f640d81c129",
                 "shasum": ""
             },
             "require": {
@@ -1507,7 +1511,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1516,7 +1522,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-03 17:15:33"
+            "time": "2014-02-11 15:39:28"
         },
         {
             "name": "symfony/http-kernel",
@@ -1525,12 +1531,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "3934f25e23f0a507a7f7ca6611b1022794620ab3"
+                "reference": "a33b776df7d5f3b54cf68817e71db5d040380732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/3934f25e23f0a507a7f7ca6611b1022794620ab3",
-                "reference": "3934f25e23f0a507a7f7ca6611b1022794620ab3",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/a33b776df7d5f3b54cf68817e71db5d040380732",
+                "reference": "a33b776df7d5f3b54cf68817e71db5d040380732",
                 "shasum": ""
             },
             "require": {
@@ -1578,7 +1584,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1587,7 +1595,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-04 10:54:30"
+            "time": "2014-02-11 13:52:09"
         },
         {
             "name": "symfony/process",
