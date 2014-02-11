@@ -44,6 +44,7 @@ return array(
 	*/
 
 	'map' => true,
+	 'map_height' => '700px',
 
 
 	/*
