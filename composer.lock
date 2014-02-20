@@ -92,12 +92,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "d0784d1006d1b55a4c9e5cd0960bfe469e3684b9"
+                "reference": "7a20a9fb60405259e0cb06f9ca867d36111a4cbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/d0784d1006d1b55a4c9e5cd0960bfe469e3684b9",
-                "reference": "d0784d1006d1b55a4c9e5cd0960bfe469e3684b9",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/7a20a9fb60405259e0cb06f9ca867d36111a4cbf",
+                "reference": "7a20a9fb60405259e0cb06f9ca867d36111a4cbf",
                 "shasum": ""
             },
             "type": "library",
@@ -123,7 +123,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2014-02-17 19:29:57"
+            "time": "2014-02-20 11:41:18"
         },
         {
             "name": "filp/whoops",
@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1faf4c8508378b0b102d148c53c322a8048b16dd"
+                "reference": "544f764e48a60b3216408eeef172fb207d4ff9ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1faf4c8508378b0b102d148c53c322a8048b16dd",
-                "reference": "1faf4c8508378b0b102d148c53c322a8048b16dd",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/544f764e48a60b3216408eeef172fb207d4ff9ff",
+                "reference": "544f764e48a60b3216408eeef172fb207d4ff9ff",
                 "shasum": ""
             },
             "require": {
@@ -555,7 +555,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-02-18 17:05:05"
+            "time": "2014-02-20 04:30:06"
         },
         {
             "name": "monolog/monolog",
@@ -563,12 +563,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "4c74b127eb5f1475157bb54c2b7cb3d529fe18f7"
+                "reference": "08f09c20805695212ebe713b6706b8efb24f96e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/4c74b127eb5f1475157bb54c2b7cb3d529fe18f7",
-                "reference": "4c74b127eb5f1475157bb54c2b7cb3d529fe18f7",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/08f09c20805695212ebe713b6706b8efb24f96e7",
+                "reference": "08f09c20805695212ebe713b6706b8efb24f96e7",
                 "shasum": ""
             },
             "require": {
@@ -622,7 +622,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-02-18 14:12:15"
+            "time": "2014-02-20 10:38:44"
         },
         {
             "name": "nesbot/carbon",
