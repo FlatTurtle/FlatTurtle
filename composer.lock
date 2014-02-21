@@ -92,12 +92,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "7a20a9fb60405259e0cb06f9ca867d36111a4cbf"
+                "reference": "1243fcf3e0ea271d31a49b1ab59166500f22580f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/7a20a9fb60405259e0cb06f9ca867d36111a4cbf",
-                "reference": "7a20a9fb60405259e0cb06f9ca867d36111a4cbf",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/1243fcf3e0ea271d31a49b1ab59166500f22580f",
+                "reference": "1243fcf3e0ea271d31a49b1ab59166500f22580f",
                 "shasum": ""
             },
             "type": "library",
@@ -123,7 +123,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2014-02-20 11:41:18"
+            "time": "2014-02-21 00:49:59"
         },
         {
             "name": "filp/whoops",
@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlatTurtle/SitesCore.git",
-                "reference": "d3318d21077402c87c1d69f99503450314388f98"
+                "reference": "e81aaa9f2860f4330394b9c197e898f68319155b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/d3318d21077402c87c1d69f99503450314388f98",
-                "reference": "d3318d21077402c87c1d69f99503450314388f98",
+                "url": "https://api.github.com/repos/FlatTurtle/SitesCore/zipball/e81aaa9f2860f4330394b9c197e898f68319155b",
+                "reference": "e81aaa9f2860f4330394b9c197e898f68319155b",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/FlatTurtle/SitesCore/tree/master",
                 "issues": "https://github.com/FlatTurtle/SitesCore/issues"
             },
-            "time": "2014-02-18 14:27:39"
+            "time": "2014-02-20 15:19:46"
         },
         {
             "name": "guzzle/guzzle",
@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "256ffce458c5b1a44b2f0ba98b5766fe9e21e3e5"
+                "reference": "8d39ffa70ac1aecd297e93d4185092f51877edb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/256ffce458c5b1a44b2f0ba98b5766fe9e21e3e5",
-                "reference": "256ffce458c5b1a44b2f0ba98b5766fe9e21e3e5",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8d39ffa70ac1aecd297e93d4185092f51877edb4",
+                "reference": "8d39ffa70ac1aecd297e93d4185092f51877edb4",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-02-18 07:26:30"
+            "time": "2014-02-20 17:01:46"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "544f764e48a60b3216408eeef172fb207d4ff9ff"
+                "reference": "e7a0f8d93854f93d83584fea9550ce1fc60639a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/544f764e48a60b3216408eeef172fb207d4ff9ff",
-                "reference": "544f764e48a60b3216408eeef172fb207d4ff9ff",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e7a0f8d93854f93d83584fea9550ce1fc60639a4",
+                "reference": "e7a0f8d93854f93d83584fea9550ce1fc60639a4",
                 "shasum": ""
             },
             "require": {
@@ -555,7 +555,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-02-20 04:30:06"
+            "time": "2014-02-21 04:44:00"
         },
         {
             "name": "monolog/monolog",
