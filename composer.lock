@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f857ae31da8ff0ab0ff218252d9ce009b78c1c6c"
+                "reference": "a084f61690d10a58645a28ebf835809bd6aae99f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f857ae31da8ff0ab0ff218252d9ce009b78c1c6c",
-                "reference": "f857ae31da8ff0ab0ff218252d9ce009b78c1c6c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a084f61690d10a58645a28ebf835809bd6aae99f",
+                "reference": "a084f61690d10a58645a28ebf835809bd6aae99f",
                 "shasum": ""
             },
             "require": {
@@ -514,7 +514,7 @@
                 "iron-io/iron_mq": "1.5.*",
                 "mockery/mockery": "0.9.*",
                 "pda/pheanstalk": "2.1.*",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.0.*"
             },
             "suggest": {
                 "doctrine/dbal": "Allow renaming columns and dropping SQLite columns."
@@ -555,7 +555,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-03-04 02:06:48"
+            "time": "2014-03-08 04:40:33"
         },
         {
             "name": "monolog/monolog",
@@ -772,12 +772,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "8b068b1df04ae1810daf073705efad790a890d8f"
+                "reference": "5dcc63ef6ca720b1617cff33b445d9b318c9ad03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/8b068b1df04ae1810daf073705efad790a890d8f",
-                "reference": "8b068b1df04ae1810daf073705efad790a890d8f",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/5dcc63ef6ca720b1617cff33b445d9b318c9ad03",
+                "reference": "5dcc63ef6ca720b1617cff33b445d9b318c9ad03",
                 "shasum": ""
             },
             "require": {
@@ -859,7 +859,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2014-03-04 17:21:01"
+            "time": "2014-03-06 11:05:11"
         },
         {
             "name": "predis/predis",
