@@ -22,7 +22,7 @@ return array(
 	|
 	*/
 
-	'template' => 'sitecore::template',
+	'template' => 'template',
 
 
 	/*
