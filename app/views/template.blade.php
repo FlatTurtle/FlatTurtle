@@ -23,7 +23,7 @@
                 </li>
             @endif
                 <li>
-                    <a href="https://my.flatturtle.com" class="btn colorful">{{ Lang::get('sitecore::reservations.title') }}</a>
+                    <a href="https://my.flatturtle.com" class="btn colorful">My FlatTurtle</a>
                 </li>
             </ul>
         </div>
